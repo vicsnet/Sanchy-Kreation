@@ -1,0 +1,58 @@
+import React, { useState } from "react";
+import Logo from "../assets/logo.png";
+import Button from "./Button";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+
+const Navbar = () => {
+  const [nav, setNav] = useState(false);
+  const handleClick = () => {
+    setNav(!nav);
+  };
+  return (
+    <div className="">
+      <div className=" flex justify-between w-[90%] mx-auto h-30">
+        <div className="">
+          <img src={Logo} alt="" className="w-[50%] h-auto pt-10 pb-10 pr-10" />
+        </div>
+        <ul className="hidden  lg:flex">
+          <li className="p-10 text-[14px] text-[#ffffff] ">Home</li>
+          <li className="p-10 text-[14px] text-[#ffffff] ">Our Story</li>
+          <li className="p-5">
+            <Button title="Contact Us" />
+          </li>
+        </ul>
+
+        <div className="lg:hidden" onClick={handleClick}>
+          {!nav ? (
+            <AiOutlineMenu size={20} className="m-10 text-[#7C7B7B]" />
+          ) : (
+            <AiOutlineClose
+              size={20}
+              className=" absolute mt-[130px] ml-[-20px] z-30 text-[#7C7B7B]"
+            />
+          )}
+        </div>
+      </div>
+
+      <ul
+        className={
+          !nav
+            ? " hidden"
+            : " relative w-[70%] bg-[#171B29] rounded-[25px] h-[340px]  pt-16 ml-[30%] sm:w-[60%] sm:ml-[40%] md:w-[50%] md:ml-[50%]"
+        }
+      >
+        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#FFFF] mx-auto mb-6 ">
+          Home
+        </li>
+        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#FFFF] mx-auto mb-6 ">
+          Our Story
+        </li>
+        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#FFFF] mx-auto mb-11 ">
+          Contact Us
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export default Navbar;
