@@ -11,6 +11,7 @@ const Home = () => {
       <Passion />
       <Story />
       <Project />
+
     </div>
   );
 }

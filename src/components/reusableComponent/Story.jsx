@@ -7,14 +7,7 @@ import Button from "./Button";
 
 const Story = () => {
   return (
-    <div className=" md:mt-14 pb-20">
-      <div className="">
-        <img
-          src={Vector}
-          alt=""
-          className="hidden absolute lg:block w-[20%] ml-[80%] xl:mt-[-12.8%] lg:mt-[-10%]"
-        />
-      </div>
+    <div className=" lg:rounded-tr-[50px] pb-20 ">
       <div className="w-[90%] mx-auto lg:flex lg:flex-row-reverse gap-5">
         <div className="lg:w-[50%]">
           <img

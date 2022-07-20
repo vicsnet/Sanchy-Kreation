@@ -14,15 +14,15 @@ const Project = () => {
           <img
             src={Group37}
             alt=""
-            className=" hidden lg:block w-[100%] h-auto absolute mt-[-15%]"
+            className=" hidden md:block w-[100%] h-auto absolute mt-[-15%] md:rounded-bl-[316px] lg:rounded-bl-[460px] xl:rounded-bl-[570px]"
           />
         </div>
         <div className="relative">
-          <h2 className="text-[36px] text-[#FFFFFF] lg:text-center lg:pb-6 lg:pt-32" >
+          <h2 className="text-[36px] text-[#FFFFFF] sm:text-center sm:pb-6 md:pt-32">
             Our Projects
           </h2>
-          <div className="lg:flex lg:w-[70%] lg:mx-auto lg:gap-5">
-            <div className="bg-[#FFFFFF] mb-6 lg:h-[700px] ">
+          <div className="md:flex md:w-[90%] lg:w-[80%] md:mx-auto md:gap-5  sm:w-[60%] sm:mx-auto sm:pb-32 md:pb-0">
+            <div className="bg-[#FFFFFF] mb-6 md:h-[700px] ">
               <div className="bg-[#FFFFFF] w-[80%] mx-auto">
                 <img
                   src={Rectangle112}
@@ -44,7 +44,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFFFFF] mb-6 lg:mt-[72px] lg:h-[700px]">
+            <div className="bg-[#FFFFFF] mb-6 md:mt-[72px] md:h-[700px]">
               <div className="bg-[#FFFFFF] w-[80%] mx-auto">
                 <img
                   src={Rectangle113}
@@ -66,7 +66,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFFFFF] lg:mb-6 lg:h-[700px]">
+            <div className="bg-[#FFFFFF] md:mb-6 md:h-[700px]">
               <div className="bg-[#FFFFFF] w-[80%] mx-auto">
                 <img
                   src={Rectangle114}
@@ -89,9 +89,6 @@ const Project = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="hidden lg:block absolute mt-[-45%]">
-          <img src={Vector3} alt="" className="w-[30%]" />
         </div>
       </div>
     </div>

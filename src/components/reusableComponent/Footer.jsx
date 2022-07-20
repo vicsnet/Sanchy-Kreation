@@ -8,20 +8,17 @@ import { AiOutlineCopyright } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className=" w-[100%] ">
-      <div className="w-[100%] bg-[#0F1320] h-auto ">
-        <div className="absolute">
-          <img src={Footbg} alt="" className="  w-[90%] mx-auto lg:pt-[19.8%] xl:pt-[14.5%] h-auto" />
-        </div>
-        <div className="relative lg:pt-[20%] xl:pt-[15%]">
-          <div className=" md:flex justify-between w-[80%] mx-auto  ">
-            <div className="lg:p-8 pb-[40px] ">
-              <img src={Logo} alt="" className="w-[30%] md:w-[50%]" />
+      <div className="w-[90%] bg-[#171B29] h-auto lg:rounded-t-[25px] rounded-t-[50px] mx-auto ">
+        <div className="w-[86%] mx-auto">
+          <div className=" md:flex justify-between  mx-auto pt-20 ">
+            <div className="lg:p-8 pb-[40px] md:w-[30%]">
+              <img src={Logo} alt="" className="w-[30%] md:w-[60%] lg:w-[70%] md:pt-8 lg:pt-0" />
             </div>
-            <ul className="md:flex text-left">
-              <li className="text-[18px] text-[#FFFFFF] md:p-8 pb-[24px]">
+            <ul className="md:flex text-left ">
+              <li className="text-[18px] text-[#FFFFFF] md:p-8 pb-[24px] ">
                 Home
               </li>
-              <li className="text-[18px] text-[#FFFFFF] md:p-8 pb-[24px]">
+              <li className="text-[18px] text-[#FFFFFF] md:p-8 pb-[24px]  ">
                 About Us
               </li>
               <li className="text-[18px] text-[#FFFFFF] md:p-8 pb-[24px]">
@@ -29,7 +26,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className=" w-[80%] mx-auto md:flex justify-between flex flex-col-reverse md:flex-row">
+          <div className="  mx-auto md:flex justify-between flex flex-col-reverse md:flex-row">
             <div className="flex lg:p-8 pt-[28px] pb-[3%]">
               <span className="flex">
                 <AiOutlineCopyright className="text-[#FFFF] text-[18px] lg:mt-[4px]" />
@@ -39,7 +36,7 @@ const Footer = () => {
               </span>
             </div>
 
-            <div className="flex">
+            <div className="flex md:mr-[4%]">
               <div className="w-[40px] h-[40px] rounded-[20px] bg-[#0C56FE] pl-[11px] pt-[10px]">
                 <FaTwitter className="text-[#ffff] text-[20px] " />
               </div>

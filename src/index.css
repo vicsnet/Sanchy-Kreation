@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.bord-left{
+    border-top-left-radius: 25px;
+}
+.bord-right{
+    border-top-right-radius: 25px;
+}
