@@ -3,6 +3,7 @@ import Rectangle22712 from "../assets/Rectangle22712.png";
 import Rectangle22707 from "../assets/Rectangle 22707.png";
 import Rectangle11 from "../assets/Rectangle 11.png";
 import Rectangle111 from "../assets/Rectangle111.png";
+import Group84642 from "../assets/Group84642.png";
 
 const Passion = () => {
   return (
@@ -30,6 +31,11 @@ const Passion = () => {
             alt=""
             className=" hidden absolute md:max-h-[490px] lg:h-[500px] md:w-[100%] lg:w-[51%] xl:w-[57.18%]  md:block xl:ml-[-1%] lg:ml-[-1%]  "
           />
+          {/* <img
+            src={Group84642}
+            alt=""
+            className=" hidden absolute md:max-h-[490px] lg:h-[500px] md:w-[100%] lg:w-[51%] xl:w-[57.18%]  md:block xl:ml-[-1%] lg:ml-[-1%]  "
+          /> */}
           <h2 className="text-[#0F1320] text-[40px] leading-[60px] relative w-[90%] mx-auto pt-16 sm:w-[50%] sm:mx-0 sm:ml-[5%] sm:pb-16 xl:ml-[10%] xl:w-[60%] xl:pt-[20%] md:w-[70%] md:ml-[10%] md:mb-[20%] md:pt-[20%] lg:w-[80%]">
             Passionate, Empathy, Cooperation, and collaration hand in hand.
           </h2>

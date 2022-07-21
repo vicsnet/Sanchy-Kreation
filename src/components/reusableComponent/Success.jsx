@@ -1,12 +1,12 @@
 import React from "react";
 import Group371 from "../assets/Group 37 (1).png";
 import Group8470 from "../assets/Group 8470.png";
-import Vector4 from "../assets/Vector4.png";
+import Group8479 from "../assets/Group 8479.png";
 import Group8468 from "../assets/Group 8468.png";
 
 const Success = () => {
   return (
-    <div className="h-[900px]">
+    <div className="h-[900px] mt-10 md:mt-0">
       <div className="">
         {/* <img
           src={Group371}
@@ -14,17 +14,17 @@ const Success = () => {
           className=" hidden w-[100%] h-[821px] absolute lg:rounded-tr-[600px] lg:rounded-bl-[300px]"
         /> */}
         <img
-          src={Vector4}
+          src={Group8479}
           alt=""
-          className=" w-[100%]  absolute"
+          className="hidden md:block w-[100%]  absolute"
         />
-        {/* <img
+        <img
           src={Group8468}
           alt=""
-          className=" hidden w-[100%] h-[821px] absolute"
-        /> */}
+          className=" md:hidden w-[100%] h-[821px] absolute"
+        />
       </div>
-      <div className=" w-[90%] mx-auto relative md:pt-[30%] lg:pt-[20%]">
+      <div className=" w-[90%] mx-auto relative md:pt-[17%] lg:pt-[20%] pt-[10%]">
         <h2 className="text-[36px] t leading-[44px] text-center">
           Some Happy Faces using our products
         </h2>
@@ -35,7 +35,7 @@ const Success = () => {
           and partners alike. We are rewarded for that.
         </p>
         <div className="mt-[39px]">
-          <img src={Group8470} alt="" className="mx-auto" />
+          <img src={Group8470} alt="" className="mx-auto lg:w-[50%] md:w-[40%] w-[80%]" />
         </div>
       </div>
     </div>
