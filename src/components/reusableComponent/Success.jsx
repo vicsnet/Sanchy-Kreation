@@ -1,28 +1,34 @@
 import React from "react";
 import Group371 from "../assets/Group 37 (1).png";
 import Group8470 from "../assets/Group 8470.png";
+import Vector4 from "../assets/Vector4.png";
 import Group8468 from "../assets/Group 8468.png";
 
 const Success = () => {
   return (
     <div className="h-[900px]">
       <div className="">
-        <img
+        {/* <img
           src={Group371}
           alt=""
-          className=" w-[100%] h-[821px] absolute lg:rounded-tr-[600px] lg:rounded-bl-[300px]"
-        />
+          className=" hidden w-[100%] h-[821px] absolute lg:rounded-tr-[600px] lg:rounded-bl-[300px]"
+        /> */}
         <img
+          src={Vector4}
+          alt=""
+          className=" w-[100%]  absolute"
+        />
+        {/* <img
           src={Group8468}
           alt=""
           className=" hidden w-[100%] h-[821px] absolute"
-        />
+        /> */}
       </div>
       <div className=" w-[90%] mx-auto relative md:pt-[30%] lg:pt-[20%]">
-        <h2 className="text-[36px] text-[#fefefe] leading-[44px] text-center">
+        <h2 className="text-[36px] t leading-[44px] text-center">
           Some Happy Faces using our products
         </h2>
-        <p className="text-[#fefefe] text-[20px] leading-[24px] text-center mt-6">
+        <p className="t text-[20px] leading-[24px] text-center mt-6">
           We excel through cooperation and refrain from working as a
           conventional tech company. Instead, our evolved, performance-based
           development system drives proven quantitative results for our users

@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 
-.bord-left{
-    border-top-left-radius: 25px;
-}
-.bord-right{
-    border-top-right-radius: 25px;
+.t{
+    color: rgba(255, 255, 255, 0.9);
 }

@@ -70,13 +70,13 @@ const Message = () => {
             <div className="mb-8">
               <span className="flex gap-2 mb-3 lg:mb-7 ">
                 <AiOutlineMail className="text-[24px] text-[#fefefe]" />
-                <p className="text-[16px] text-[#fefefe]">
+                <p className="text-[16px] t">
                   Email: Support@sanchykreations.com
                 </p>
               </span>
               <span className="flex gap-2 mb-3">
                 <FaMapMarkerAlt className="text-[24px] text-[#fefefe]" />
-                <p className="text-[16px] text-[#fefefe]">
+                <p className="text-[16px] t">
                   Address: 12d Wole Ariyo St, Lekki Phase 1 105102, Lagos
                   Nigeria
                 </p>

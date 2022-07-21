@@ -9,7 +9,7 @@ const OurStory = () => {
             Our Story
           </h3>
           <div className="bg-[#171B29] w-[100%] mx-auto rounded-[25px]">
-            <p className="text-[20px] text-[#fefefe] w-[90%] mx-auto pt-7 pb-7 leading-6 md:pt-[75px] md:pb-[75px]">
+            <p className="text-[20px] t w-[90%] mx-auto pt-7 pb-7 leading-6 md:pt-[75px] md:pb-[75px]">
               Poised as a technology-driven company, we pride ourselves in
               providing comprehensive arrays of solutions comprising payment
               integration across e-commerce websites as a stress-free routine,

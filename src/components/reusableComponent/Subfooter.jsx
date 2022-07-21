@@ -13,7 +13,7 @@ const Subfooter = () => {
             className="w-[100%] h-[80%] sm:h-[70%] md:h-[100%] xl:h-[90%] absolute "
           />
         </div>
-        <div className="relative text-[#fefefe] ">
+        <div className="relative t ">
           <h2 className="text-[36px] text-center leading-10 pt-[50px] w-[94%] mx-auto md:text-[48px] md:leading-[51px] md:pt-52">
             Tell us about your idea, and we’ll make it happen.
           </h2>

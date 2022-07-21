@@ -17,7 +17,7 @@ const Innovate = () => {
                 <h2 className="text-[#FFD100] text-[36px] underline ">
                   Innovate with Research & Balance
                 </h2>
-                <p className="text-[20px] text-[#fefefe] tracking-[3%] mt-5 width-[100%] leading-6">
+                <p className="text-[20px] t tracking-[3%] mt-5 width-[100%] leading-6">
                   Passion and curiosity drive everything we do; wisdom and
                   experience ensure we accomplish our goals. We demand
                   excellence, no matter how challenging the task and push each

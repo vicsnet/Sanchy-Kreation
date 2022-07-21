@@ -19,13 +19,13 @@ const Footer = () => {
               />
             </div>
             <ul className="md:flex text-left ">
-              <li className="text-[18px] text-[#fefefe] md:p-8 pb-[24px] ">
+              <li className="text-[18px] t md:p-8 pb-[24px] ">
                 Home
               </li>
-              <li className="text-[18px] text-[#fefefe] md:p-8 pb-[24px]  ">
+              <li className="text-[18px] t md:p-8 pb-[24px]  ">
                 About Us
               </li>
-              <li className="text-[18px] text-[#fefefe] md:p-8 pb-[24px]">
+              <li className="text-[18px] t md:p-8 pb-[24px]">
                 Contact
               </li>
             </ul>
@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="flex lg:p-8 pt-[28px] pb-[3%]">
               <span className="flex">
                 <AiOutlineCopyright className="text-[#fefefe] text-[18px] lg:mt-[4px]" />
-                <h2 className="text-[#fefefe]  text-[13px] lg:text-[18px] pl-[4px]">
+                <h2 className="t  text-[13px] lg:text-[18px] pl-[4px]">
                   2022 Sanchy Kreations. All rights reserved
                 </h2>
               </span>
