@@ -5,6 +5,7 @@ import Footbg from "../assets/footer.png";
 import Copy from "../assets/copyright.png";
 import { FaTwitter, FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { AiOutlineCopyright } from "react-icons/ai";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className=" w-[100%] ">
@@ -12,22 +13,24 @@ const Footer = () => {
         <div className="w-[86%] mx-auto">
           <div className=" md:flex justify-between  mx-auto pt-20 ">
             <div className="lg:p-8 pb-[40px] md:w-[30%]">
-              <img
-                src={Logo}
-                alt=""
-                className="w-[30%] md:w-[60%] lg:w-[70%] md:pt-8 lg:pt-0"
-              />
+              <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+                <img
+                  src={Logo}
+                  alt=""
+                  className="w-[30%] md:w-[60%] lg:w-[70%] md:pt-8 lg:pt-0"
+                />
+              </Link>
             </div>
             <ul className="md:flex text-left ">
-              <li className="text-[18px] t md:p-8 pb-[24px] ">
-                Home
-              </li>
-              <li className="text-[18px] t md:p-8 pb-[24px]  ">
-                About Us
-              </li>
-              <li className="text-[18px] t md:p-8 pb-[24px]">
-                Contact
-              </li>
+              <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+                <li className="text-[18px] t md:p-8 pb-[24px] ">Home</li>
+              </Link>
+              <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
+                <li className="text-[18px] t md:p-8 pb-[24px]  ">About Us</li>
+              </Link>
+              <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+                <li className="text-[18px] t md:p-8 pb-[24px]">Contact</li>
+              </Link>
             </ul>
           </div>
           <div className="  mx-auto md:flex justify-between flex flex-col-reverse md:flex-row">

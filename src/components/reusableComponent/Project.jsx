@@ -33,7 +33,7 @@ const Project = () => {
                   <h3 className="text-center text-[24px] text-[#000000]">
                     Sanchy Technology
                   </h3>
-                  <p className="text-center mt-4 mb-5">
+                  <p className="text-center mt-4 mb-5 text-[16px]">
                     Lorem ipsum dolor sit amet. Eum dignissimos libero qui
                     tempore sapiente eum quia velit vel ducimus rerum est
                     consequatur eveniet.
@@ -55,7 +55,7 @@ const Project = () => {
                   <h3 className="text-center text-[24px] text-[#000000]">
                     Sanchy Healthcare
                   </h3>
-                  <p className="text-center mt-4 mb-5">
+                  <p className="text-center mt-4 mb-5 text-[16px]">
                     Lorem ipsum dolor sit amet. Eum dignissimos libero qui
                     tempore sapiente eum quia velit vel ducimus rerum est
                     consequatur eveniet.
@@ -77,7 +77,7 @@ const Project = () => {
                   <h3 className="text-center text-[24px] text-[#000000]">
                     Sanchy Nutrition
                   </h3>
-                  <p className="text-center mt-4 mb-5">
+                  <p className="text-center mt-4 mb-5 text-[16px]">
                     Lorem ipsum dolor sit amet. Eum dignissimos libero qui
                     tempore sapiente eum quia velit vel ducimus rerum est
                     consequatur eveniet.
