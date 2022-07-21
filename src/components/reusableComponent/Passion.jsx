@@ -7,7 +7,7 @@ import Rectangle111 from "../assets/Rectangle111.png";
 const Passion = () => {
   return (
     <div>
-      <div className=" lg:flex xl:flex mt-16">
+      <div className=" lg:flex xl:flex mt-16 h-[900px] sm:h-[1000px] lg:h-[600px]">
         <img
           src={Rectangle22712}
           alt=""

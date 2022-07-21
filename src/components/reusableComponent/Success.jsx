@@ -10,11 +10,15 @@ const Success = () => {
         <img
           src={Group371}
           alt=""
-          className="hidden w-[100%] h-[821px] absolute"
+          className=" w-[100%] h-[821px] absolute lg:rounded-tr-[600px] lg:rounded-bl-[300px]"
         />
-        <img src={Group8468} alt="" className="w-[100%] h-[821px] absolute" />
+        <img
+          src={Group8468}
+          alt=""
+          className=" hidden w-[100%] h-[821px] absolute"
+        />
       </div>
-      <div className=" w-[90%] mx-auto relative pt-[36%]">
+      <div className=" w-[90%] mx-auto relative md:pt-[30%] lg:pt-[20%]">
         <h2 className="text-[36px] text-[#fefefe] leading-[44px] text-center">
           Some Happy Faces using our products
         </h2>

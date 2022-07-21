@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Logo from "../assets/logo.png";
 import Button from "./Button";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -12,14 +13,26 @@ const Navbar = () => {
     <div className="">
       <div className=" flex justify-between w-[90%] mx-auto h-30">
         <div className="">
-          <img src={Logo} alt="" className="w-[50%] h-auto pt-10 pb-10 pr-10" />
+          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+            <img
+              src={Logo}
+              alt=""
+              className="w-[50%] h-auto pt-10 pb-10 pr-10"
+            />
+          </Link>
         </div>
         <ul className="hidden  lg:flex">
-          <li className="p-10 text-[14px] text-[#fefefe] ">Home</li>
-          <li className="p-10 text-[14px] text-[#fefefe] ">Our Story</li>
-          <li className="p-5">
-            <Button title="Contact Us" />
-          </li>
+          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+            <li className="p-10 text-[14px] text-[#fefefe] ">Home</li>
+          </Link>
+          <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
+            <li className="p-10 text-[14px] text-[#fefefe] ">Our Story</li>
+          </Link>
+          <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+            <li className="p-5">
+              <Button title="Contact Us" />
+            </li>
+          </Link>
         </ul>
 
         <div className="lg:hidden" onClick={handleClick}>
@@ -41,15 +54,21 @@ const Navbar = () => {
             : " absolute w-[100%] bg-[#171B29] rounded-[25px] h-[340px]  pt-16 "
         }
       >
-        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-6 ">
-          Home
-        </li>
-        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-6 ">
-          Our Story
-        </li>
-        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-11 ">
-          Contact Us
-        </li>
+        <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+          <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-6 ">
+            Home
+          </li>
+        </Link>
+        <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
+          <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-6 ">
+            Our Story
+          </li>
+        </Link>
+        <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+          <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-11 ">
+            Contact Us
+          </li>
+        </Link>
       </ul>
     </div>
   );
