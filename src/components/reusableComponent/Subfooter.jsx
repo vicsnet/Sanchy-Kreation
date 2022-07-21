@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Subfooter = () => {
   return (
-    <div >
+    <div>
       <div className="bg-[#0F1320] mb-[40%] sm:mb-[25%] md:mb-[104px] ">
         <div className="">
           <img
@@ -13,7 +13,7 @@ const Subfooter = () => {
             className="w-[100%] h-[80%] sm:h-[70%] md:h-[100%] xl:h-[90%] absolute "
           />
         </div>
-        <div className="relative text-white ">
+        <div className="relative text-[#fefefe] ">
           <h2 className="text-[36px] text-center leading-10 pt-[50px] w-[94%] mx-auto md:text-[48px] md:leading-[51px] md:pt-52">
             Tell us about your idea, and we’ll make it happen.
           </h2>

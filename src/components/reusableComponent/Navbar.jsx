@@ -15,8 +15,8 @@ const Navbar = () => {
           <img src={Logo} alt="" className="w-[50%] h-auto pt-10 pb-10 pr-10" />
         </div>
         <ul className="hidden  lg:flex">
-          <li className="p-10 text-[14px] text-[#ffffff] ">Home</li>
-          <li className="p-10 text-[14px] text-[#ffffff] ">Our Story</li>
+          <li className="p-10 text-[14px] text-[#fefefe] ">Home</li>
+          <li className="p-10 text-[14px] text-[#fefefe] ">Our Story</li>
           <li className="p-5">
             <Button title="Contact Us" />
           </li>
@@ -38,16 +38,16 @@ const Navbar = () => {
         className={
           !nav
             ? " hidden"
-            : " relative w-[70%] bg-[#171B29] rounded-[25px] h-[340px]  pt-16 ml-[30%] sm:w-[60%] sm:ml-[40%] md:w-[50%] md:ml-[50%]"
+            : " absolute w-[100%] bg-[#171B29] rounded-[25px] h-[340px]  pt-16 "
         }
       >
-        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#FFFF] mx-auto mb-6 ">
+        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-6 ">
           Home
         </li>
-        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#FFFF] mx-auto mb-6 ">
+        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-6 ">
           Our Story
         </li>
-        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#FFFF] mx-auto mb-11 ">
+        <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-11 ">
           Contact Us
         </li>
       </ul>

@@ -23,7 +23,7 @@ const Passion = () => {
           <img
             src={Rectangle11}
             alt=""
-            className="absolute w-[100%] max-h-96 md:hidden "
+            className="absolute w-[100%] h-96 md:hidden "
           />
           <img
             src={Rectangle111}

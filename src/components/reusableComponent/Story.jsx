@@ -7,7 +7,7 @@ import Button from "./Button";
 
 const Story = () => {
   return (
-    <div className=" lg:rounded-tr-[50px] pb-20 ">
+    <div className=" lg:rounded-tr-[250px] pb-20 ">
       <div className="w-[90%] mx-auto lg:flex lg:flex-row-reverse gap-5">
         <div className="lg:w-[50%]">
           <img
@@ -22,10 +22,10 @@ const Story = () => {
           />
         </div>
         <div className="lg:w-[50%]">
-          <h2 className="text-[#FFFFFF] text-[36px] mb-8 mt-20 md:text-[48px] md:mt-0">
+          <h2 className="text-[#fefefe] text-[36px] mb-8 mt-20 md:text-[48px] md:mt-0">
             Our Story
           </h2>
-          <p className="text-[#CFD0D2] text-[16px] leading-5 lg:leading-8">
+          <p className="text-[#fefefe] text-[16px] leading-5 lg:leading-8">
             As an established technology-driven company, we pride ourselves on
             providing comprehensive arrays of solutions comprising of making
             card payment across any e-commerce website a stress free routine,
@@ -36,7 +36,7 @@ const Story = () => {
             services, recruitment services, and communication & network
             management services.
           </p>
-          <p className="text-[#CFD0D2] text-[16px] leading-5 pt-5 mb-10 lg:leading-8">
+          <p className="text-[#fefefe] text-[16px] leading-5 pt-5 mb-10 lg:leading-8">
             At Sanchy Kreations, we embrace the power of change to create
             long-lasting value in every direction for our clients, people and
             communities and we strive to continuously equip ourselves with the

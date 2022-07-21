@@ -3,6 +3,7 @@ import Passion from '../components/reusableComponent/Passion';
 import Project from '../components/reusableComponent/Project';
 import Services from '../components/reusableComponent/Services'
 import Story from '../components/reusableComponent/Story';
+import Subfooter from '../components/reusableComponent/Subfooter';
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       <Passion />
       <Story />
       <Project />
-
+      <Subfooter />
     </div>
   );
 }

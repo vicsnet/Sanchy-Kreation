@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div className="bg-[#0F1320] xl:mt-[-3%]">
       <div className="w-[90%] mx-auto">
-        <h2 className=" text-[36px] text-[#F5F5F5] md:text-[48px]">Services</h2>
+        <h2 className=" text-[36px] text-[#fefefe] md:text-[48px]">Services</h2>
         <div className="md:grid md:grid-cols-2 md:gap-5">
           <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 md:max-h-[466px] lg:max-h-[400px]">
             <div className="w-[90%] mx-auto pb-4 ">
@@ -21,7 +21,7 @@ const Services = () => {
                 <h2 className="text-[#0C56FE] text-[36px] underline ">
                   Vision
                 </h2>
-                <p className="text-[20px] text-[#F5F5F5] tracking-[3%] mt-5">
+                <p className="text-[20px] text-[#fefefe] tracking-[3%] mt-5">
                   To be a successful global information technology company
                   trusted by its customers and partners for service excellence,
                   caring for its employees and creating and delivering
@@ -42,7 +42,7 @@ const Services = () => {
                   <h2 className="text-[#FFD100] text-[36px] underline ">
                     Pioneering
                   </h2>
-                  <p className="text-[20px] text-[#F5F5F5] tracking-[3%] mt-5">
+                  <p className="text-[20px] text-[#fefefe] tracking-[3%] mt-5">
                     We are pioneers in providing unified communications for
                     today's rapidly changing world, where digital solutions are
                     the new normal.
@@ -63,7 +63,7 @@ const Services = () => {
                 <h2 className="text-[#FF6827] text-[36px] underline ">
                   Strategies
                 </h2>
-                <p className="text-[20px] text-[#F5F5F5] tracking-[3%] mt-5">
+                <p className="text-[20px] text-[#fefefe] tracking-[3%] mt-5">
                   We constantly validate business strategy for our services &
                   products in the respective target market. We engage in an
                   end-to-end strategy implementation to introduce our solutions
@@ -83,7 +83,7 @@ const Services = () => {
                 />
                 <div className="mt-8 ">
                   <h2 className="text-[#22A75D] text-[36px] underline ">Aim</h2>
-                  <p className="text-[20px] text-[#F5F5F5] tracking-[3%] mt-5">
+                  <p className="text-[20px] text-[#fefefe] tracking-[3%] mt-5">
                     Instead of dreaming of overnight success, we work smarter to
                     deliver value to all stakeholders and solve business
                     problems in the niches we are operating in.

@@ -1,8 +1,11 @@
 import React from 'react'
+import Message from '../components/reusableComponent/Message'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <Message />
+    </div>
   )
 }
 

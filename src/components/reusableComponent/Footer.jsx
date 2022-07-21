@@ -12,16 +12,20 @@ const Footer = () => {
         <div className="w-[86%] mx-auto">
           <div className=" md:flex justify-between  mx-auto pt-20 ">
             <div className="lg:p-8 pb-[40px] md:w-[30%]">
-              <img src={Logo} alt="" className="w-[30%] md:w-[60%] lg:w-[70%] md:pt-8 lg:pt-0" />
+              <img
+                src={Logo}
+                alt=""
+                className="w-[30%] md:w-[60%] lg:w-[70%] md:pt-8 lg:pt-0"
+              />
             </div>
             <ul className="md:flex text-left ">
-              <li className="text-[18px] text-[#FFFFFF] md:p-8 pb-[24px] ">
+              <li className="text-[18px] text-[#fefefe] md:p-8 pb-[24px] ">
                 Home
               </li>
-              <li className="text-[18px] text-[#FFFFFF] md:p-8 pb-[24px]  ">
+              <li className="text-[18px] text-[#fefefe] md:p-8 pb-[24px]  ">
                 About Us
               </li>
-              <li className="text-[18px] text-[#FFFFFF] md:p-8 pb-[24px]">
+              <li className="text-[18px] text-[#fefefe] md:p-8 pb-[24px]">
                 Contact
               </li>
             </ul>
@@ -29,8 +33,8 @@ const Footer = () => {
           <div className="  mx-auto md:flex justify-between flex flex-col-reverse md:flex-row">
             <div className="flex lg:p-8 pt-[28px] pb-[3%]">
               <span className="flex">
-                <AiOutlineCopyright className="text-[#FFFF] text-[18px] lg:mt-[4px]" />
-                <h2 className="text-[#FFFFFF]  text-[13px] lg:text-[18px] pl-[4px]">
+                <AiOutlineCopyright className="text-[#fefefe] text-[18px] lg:mt-[4px]" />
+                <h2 className="text-[#fefefe]  text-[13px] lg:text-[18px] pl-[4px]">
                   2022 Sanchy Kreations. All rights reserved
                 </h2>
               </span>
@@ -38,17 +42,17 @@ const Footer = () => {
 
             <div className="flex md:mr-[4%]">
               <div className="w-[40px] h-[40px] rounded-[20px] bg-[#0C56FE] pl-[11px] pt-[10px]">
-                <FaTwitter className="text-[#ffff] text-[20px] " />
+                <FaTwitter className="text-[#fefefe] text-[20px] " />
               </div>
               <div className="bg-[#0C56FE] ml-8 w-[40px] h-[40px] rounded-[20px]  pl-[11px] pt-[10px]">
-                <FaInstagram className="text-[#ffff]  text-[20px] " />
+                <FaInstagram className="text-[#fefefe]  text-[20px] " />
               </div>
 
               <div className="ml-8 w-[40px] h-[40px] bg-[#0C56FE] rounded-[20px]  pl-[11px] pt-[10px]">
-                <FaFacebook className="text-[#ffff]  text-[20px] " />
+                <FaFacebook className="text-[#fefefe]  text-[20px] " />
               </div>
               <div className="ml-8 w-[40px] h-[40px] bg-[#0C56FE] rounded-[20px]  pl-[11px] pt-[10px]">
-                <FaLinkedin className="text-[#ffff]  text-[20px] " />
+                <FaLinkedin className="text-[#fefefe]  text-[20px] " />
               </div>
             </div>
           </div>
