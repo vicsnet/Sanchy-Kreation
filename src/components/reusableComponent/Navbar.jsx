@@ -37,11 +37,11 @@ const Navbar = () => {
 
         <div className="lg:hidden" onClick={handleClick}>
           {!nav ? (
-            <AiOutlineMenu size={20} className="m-10 text-[#7C7B7B]" />
+            <AiOutlineMenu size={20} className="m-10 text-[#fefefe] cursor-pointer" />
           ) : (
             <AiOutlineClose
               size={20}
-              className=" absolute mt-[130px] ml-[-20px] z-30 text-[#7C7B7B]"
+              className=" absolute mt-[130px] ml-[-20px] z-30 text-[#7C7B7B] cursor-pointer"
             />
           )}
         </div>
@@ -55,17 +55,17 @@ const Navbar = () => {
         }
       >
         <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-          <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-6 ">
+          <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] pl-4 py-5 bg-[#fefefe] mx-auto mb-6 ">
             Home
           </li>
         </Link>
         <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
-          <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-6 ">
+          <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] pl-4 py-5 bg-[#fefefe] mx-auto mb-6 ">
             Our Story
           </li>
         </Link>
         <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
-          <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] p-4 bg-[#fefefe] mx-auto mb-11 ">
+          <li className=" text-[14px] text-[#001EDC] w-[80%] h-[58px] pl-4 py-5 bg-[#fefefe] mx-auto mb-11 ">
             Contact Us
           </li>
         </Link>

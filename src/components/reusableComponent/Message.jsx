@@ -20,7 +20,7 @@ const Message = () => {
               <input
                 type="text"
                 placeholder="Enter full name"
-                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5"
+                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 bg-[#F6F4FF] outline-none"
               />{" "}
               <br />
               <label className="text-[16px] text-[#fefefe] pb-2">
@@ -30,7 +30,7 @@ const Message = () => {
               <input
                 type="text"
                 placeholder="Enter company name"
-                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5"
+                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 bg-[#F6F4FF] outline-none"
               />
               <br />
               <label className="text-[16px] text-[#fefefe] pb-2">Email</label>
@@ -38,17 +38,19 @@ const Message = () => {
               <input
                 type="text"
                 placeholder="Enter email address"
-                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5"
+                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 bg-[#F6F4FF] outline-none"
               />
               <br />
-              <label className="text-[16px] text-[#fefefe] pb-2">Message</label>
+              <label className="text-[16px] text-[#fefefe] pb-2 ">
+                Message
+              </label>
               <br />
               <textarea
                 name=""
                 id=""
                 cols="30"
                 rows="10"
-                className=" w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5"
+                className=" w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 bg-[#F6F4FF] outline-none"
               ></textarea>
               <br />
               <button className="w-[100%] h-[73px] text-[24px] text-[#fefefe] bg-[#0C56FE] rounded-[4px] mb-10 lg:mt-6">
@@ -83,7 +85,11 @@ const Message = () => {
               </span>
             </div>
             <div className=" pb-8 ">
-              <img src={image7} alt="" className="md:w-[60%] mx-auto sm:w-[60%]" />
+              <img
+                src={image7}
+                alt=""
+                className="md:w-[60%] mx-auto sm:w-[60%]"
+              />
             </div>
           </div>
         </div>
