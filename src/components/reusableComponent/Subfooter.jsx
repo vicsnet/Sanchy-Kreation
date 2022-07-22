@@ -1,6 +1,7 @@
 import React from "react";
 import SubFoot from "../assets/Rectangle 5sub.png";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const Subfooter = () => {
   return (
@@ -24,7 +25,9 @@ const Subfooter = () => {
             iure enim. Qui ipsa molestiae est omnis eaque id voluptate{" "}
           </p>
           <div className="pb-[28px] mx-auto flex px-auto justify-items-center items-center w-[208px] md:pb-28">
-            <Button className="" title=" Contact Us" />
+            <Link to="contact" onClick={() => window.scrollTo(0, 0)}>
+              <Button className="" title=" Contact Us" />
+            </Link>
           </div>
         </div>
       </div>

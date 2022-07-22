@@ -14,10 +14,10 @@ const Hero = () => {
             <h3 className="text-[#0C56FE] text-[16px] md:text-[24px] pb-2">
               At Sanchy Kreations we are{" "}
             </h3>
-            <h1 className="text-[36px] text-[#fefefe] pb-2 lg:text-[60px] lg:w-[100%]">
+            <h1 className="text-[36px] t pb-2 lg:text-[60px] lg:w-[100%]">
               Solution-Driven
             </h1>
-            <p className="text-[16px] leading-5 t mb-10 tracking-[3%] lg:text-[20px] lg:leading-7 ">
+            <p className=" text-[16px] leading-5 t mb-10 tracking-[3%]  lg:leading-7 ">
               Our values act as guidelines, so we know how to approach our work
               and collaborate when developing digital solutions that work. We
               desire to not only build but pioneer as the leader in emerging
