@@ -8,7 +8,7 @@ import Group84642 from "../assets/Group84642.png";
 const Passion = () => {
   return (
     <div>
-      <div className=" lg:flex xl:flex mt-16 h-[900px] sm:h-[1000px] lg:h-[600px]">
+      <div className=" lg:flex xl:flex mt-16 h-[880px] sm:h-[1000px] lg:h-[600px]">
         <img
           src={Rectangle22712}
           alt=""
