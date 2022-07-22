@@ -2,7 +2,7 @@ import React from "react";
 import Rectangle112 from "../assets/Rectangle112.png";
 import Rectangle113 from "../assets/Rectangle113.png";
 import Rectangle114 from "../assets/Rectangle114.png";
-import Group37 from "../assets/Group37.png";
+import Group37 from "../assets/Group 8482.png";
 import Vector3 from "../assets/Vector3.png";
 import ExploreBut from "./ExploreBut";
 
@@ -14,7 +14,7 @@ const Project = () => {
           <img
             src={Group37}
             alt=""
-            className=" hidden md:block w-[100%] h-auto absolute mt-[-15%] md:rounded-bl-[316px] lg:rounded-bl-[460px] xl:rounded-bl-[570px]"
+            className=" hidden md:block w-[100%] h-auto absolute mt-[-15%] "
           />
         </div>
         <div className="relative">
