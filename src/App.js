@@ -12,7 +12,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <div className="bg-[#0F1320]">
-      <Hero />
+     
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />

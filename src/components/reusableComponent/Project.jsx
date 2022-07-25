@@ -22,7 +22,7 @@ const Project = () => {
             Our Projects
           </h2>
           <div className="md:flex md:w-[90%] lg:w-[80%] md:mx-auto md:gap-5  sm:w-[60%] sm:mx-auto sm:pb-32 md:pb-0">
-            <div className="bg-[#FFFFFF] mb-6 md:h-[700px] ">
+            <div className="bg-[#FFFFFF] mb-6 md:h-[560px] ">
               <div className="bg-[#FFFFFF] w-[80%] mx-auto">
                 <img
                   src={Rectangle112}
@@ -33,18 +33,14 @@ const Project = () => {
                   <h3 className="text-center text-[24px] text-[#000000]">
                     Sanchy Technology
                   </h3>
-                  <p className="text-center mt-4 mb-5 text-[16px]">
-                    Lorem ipsum dolor sit amet. Eum dignissimos libero qui
-                    tempore sapiente eum quia velit vel ducimus rerum est
-                    consequatur eveniet.
-                  </p>
-                  <div className="px-auto mx-auto flex pb-8">
+                 
+                  <div className="px-auto mx-auto mt-4 flex pb-8">
                     <ExploreBut className="mx-auto" />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFFFFF] mb-6 md:mt-[72px] md:h-[700px]">
+            <div className="bg-[#FFFFFF] mb-6 md:mt-[72px] md:h-[560px]">
               <div className="bg-[#FFFFFF] w-[80%] mx-auto">
                 <img
                   src={Rectangle113}
@@ -55,18 +51,14 @@ const Project = () => {
                   <h3 className="text-center text-[24px] text-[#000000]">
                     Sanchy Healthcare
                   </h3>
-                  <p className="text-center mt-4 mb-5 text-[16px]">
-                    Lorem ipsum dolor sit amet. Eum dignissimos libero qui
-                    tempore sapiente eum quia velit vel ducimus rerum est
-                    consequatur eveniet.
-                  </p>
-                  <div className="px-auto mx-auto flex pb-8">
+
+                  <div className="px-auto mx-auto mt-4 flex pb-8">
                     <ExploreBut className="" />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFFFFF] md:mb-6 md:h-[700px]">
+            <div className="bg-[#FFFFFF] md:mb-6 md:h-[560px]">
               <div className="bg-[#FFFFFF] w-[80%] mx-auto">
                 <img
                   src={Rectangle114}
@@ -77,12 +69,8 @@ const Project = () => {
                   <h3 className="text-center text-[24px] text-[#000000]">
                     Sanchy Nutrition
                   </h3>
-                  <p className="text-center mt-4 mb-5 text-[16px]">
-                    Lorem ipsum dolor sit amet. Eum dignissimos libero qui
-                    tempore sapiente eum quia velit vel ducimus rerum est
-                    consequatur eveniet.
-                  </p>
-                  <div className="px-auto mx-auto flex pb-8">
+
+                  <div className="px-auto mx-auto flex pb-8 mt-4">
                     <ExploreBut />
                   </div>
                 </div>

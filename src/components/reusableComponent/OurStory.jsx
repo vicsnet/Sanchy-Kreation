@@ -5,8 +5,8 @@ const OurStory = () => {
     <div>
       <div className="w-[90%] mx-auto">
         <div className="">
-          <h3 className=" text-[#fefefe] text-[36px] leading-[54px] md:text-[48px]">
-            Our Story
+          <h3 className=" text-[#fefefe] text-[36px] leading-[54px] md:text-[46px]">
+            Who We Are and What We’re About
           </h3>
           <div className="bg-[#171B29] w-[100%] mx-auto rounded-[25px]">
             <p className="text-[16px] t w-[90%] mx-auto pt-7 pb-7 leading-6 md:pt-[75px] md:pb-[75px]">
