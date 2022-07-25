@@ -15,7 +15,7 @@ const Subfooter = () => {
           />
         </div>
         <div className="relative t ">
-          <h2 className="text-[36px] text-center leading-10 pt-[50px] w-[94%] mx-auto md:text-[48px] md:leading-[51px] md:pt-52">
+          <h2 className="font-bold text-[36px] text-center leading-10 pt-[50px] w-[94%] mx-auto md:text-[46px] md:leading-[51px] md:pt-52">
             Tell us about your idea, and we’ll make it happen.
           </h2>
           <p className="text-[16px] leading-5 text-center pt-6 pb-9 w-[90%] mx-auto md:pb-20">

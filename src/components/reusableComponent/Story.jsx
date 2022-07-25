@@ -7,7 +7,7 @@ import Button from "./Button";
 
 const Story = () => {
   return (
-    <div className=" lg:rounded-tr-[250px] pb-20 ">
+    <div className="  pb-20 ">
       <div className="w-[90%] mx-auto lg:flex lg:flex-row-reverse gap-5">
         <div className="lg:w-[50%]">
           <img
@@ -22,27 +22,20 @@ const Story = () => {
           />
         </div>
         <div className="lg:w-[50%]">
-          <h2 className="text-[#fefefe] text-[36px] mb-8 mt-20 md:text-[48px] md:mt-0">
-            Our Story
+          <h2 className="text-[#fefefe] text-[36px] mb-8 mt-20 md:text-[46px] md:mt-0 xl:w-[100%] font-bold" >
+            A road map to increased productivity and improved product-driven
+            solutions.
           </h2>
           <p className="t text-[16px] leading-5 lg:leading-8">
-            As an established technology-driven company, we pride ourselves on
-            providing comprehensive arrays of solutions comprising of making
-            card payment across any e-commerce website a stress free routine,
-            making your memory last longer for generations through wall
-            portraits and also makes information available for B2B purpose and
-            many more. Our team consistently delivers first hand solutions
-            solutions in various areas including, but not limited to, marketing
-            services, recruitment services, and communication & network
-            management services.
+            Each element of our solutions works smarter by being fully
+            integrated, the net result is higher levels of productivity and
+            efficiency in our work force, as well as greater levels of
+            satisfaction, as frustrations caused by lack of cohesion disappear.
           </p>
           <p className="t text-[16px] leading-5 pt-5 mb-10 lg:leading-8">
-            At Sanchy Kreations, we embrace the power of change to create
-            long-lasting value in every direction for our clients, people and
-            communities and we strive to continuously equip ourselves with the
-            latest digital know-how and pave the way for our clients and
-            partners to navigate the technology landscape most effectively in
-            this ever changing world.
+            We achieve this through the integration of data analysis and
+            adequate research into development and new technologies, full
+            analytics and development management information from the get-go.
           </p>
           <Button title="Learn more" />
         </div>

@@ -25,7 +25,7 @@ const Success = () => {
         />
       </div>
       <div className=" w-[90%] mx-auto relative md:pt-[17%] lg:pt-[20%] pt-[10%]">
-        <h2 className="text-[36px] t leading-[44px] text-center">
+        <h2 className="text-[36px] t leading-[44px] text-center font-bold">
           Dynamic digital tools with proven success stories
         </h2>
         <p className="t text-[20px] leading-[24px] text-center mt-6">

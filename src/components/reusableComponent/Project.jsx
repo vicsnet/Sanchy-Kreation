@@ -1,7 +1,7 @@
 import React from "react";
-import Rectangle112 from "../assets/Rectangle112.png";
-import Rectangle113 from "../assets/Rectangle113.png";
-import Rectangle114 from "../assets/Rectangle114.png";
+import Rectangle112 from "../assets/Rectangle 11 (6).png";
+import Rectangle113 from "../assets/Rectangle 11 (7).png";
+import Rectangle114 from "../assets/Rectangle 11 (8).png";
 import Group37 from "../assets/Group 8482.png";
 import Vector3 from "../assets/Vector3.png";
 import ExploreBut from "./ExploreBut";
@@ -18,7 +18,7 @@ const Project = () => {
           />
         </div>
         <div className="relative">
-          <h2 className="text-[36px] text-[#FFFFFF] sm:text-center sm:pb-6 md:pt-32">
+          <h2 className="text-[36px] text-[#FFFFFF] sm:text-center sm:pb-6 md:pt-32 font-bold">
             Our Projects
           </h2>
           <div className="md:flex md:w-[90%] lg:w-[80%] md:mx-auto md:gap-5  sm:w-[60%] sm:mx-auto sm:pb-32 md:pb-0">
@@ -30,10 +30,10 @@ const Project = () => {
                   className="pt-[38px] pb-[46px] w-[100%]"
                 />
                 <div className="">
-                  <h3 className="text-center text-[24px] text-[#000000]">
+                  <h3 className="text-center text-[24px] text-[#000000] font-bold">
                     Sanchy Technology
                   </h3>
-                 
+
                   <div className="px-auto mx-auto mt-4 flex pb-8">
                     <ExploreBut className="mx-auto" />
                   </div>
@@ -47,9 +47,14 @@ const Project = () => {
                   alt=""
                   className="pt-[38px] pb-[46px] w-[100%]"
                 />
+                <div>
+                  <h2 className="absolute top-[50%] left-[40.3%] t text-[40px]">
+                    Coming Soon
+                  </h2>
+                </div>
                 <div className="">
-                  <h3 className="text-center text-[24px] text-[#000000]">
-                    Sanchy Healthcare
+                  <h3 className="text-center text-[24px] text-[#000000] font-bold">
+                    Sanchy Real Estate
                   </h3>
 
                   <div className="px-auto mx-auto mt-4 flex pb-8">
@@ -66,7 +71,7 @@ const Project = () => {
                   className="pt-[38px] pb-[46px] w-[100%]"
                 />
                 <div className="">
-                  <h3 className="text-center text-[24px] text-[#000000]">
+                  <h3 className="text-center text-[24px] text-[#000000] font-bold">
                     Sanchy Nutrition
                   </h3>
 

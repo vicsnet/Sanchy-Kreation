@@ -14,7 +14,7 @@ const Innovate = () => {
                 className="w-[16%] h-auto pt-[27px] lg:pt-[60px] sm:w-[12%] md:w-[8%] lg:w-[10%]"
               />
               <div className="mt-8 ">
-                <h2 className="text-[#FFD100] text-[36px] underline ">
+                <h2 className="text-[#FFD100] text-[36px] underline font-bold">
                   Innovate with Research & Balance
                 </h2>
                 <p className="text-[16px] t tracking-[3%] mt-5 width-[100%] leading-6">

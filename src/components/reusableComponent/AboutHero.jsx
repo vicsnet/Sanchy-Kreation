@@ -2,6 +2,8 @@ import React from "react";
 import MainHero from "./MainHero";
 import Navbar from "./Navbar";
 import Herobg from "../assets/bg.png";
+import Group8493 from "../assets/Group 8493.png";
+
 
 const AboutHero = () => {
   return (
@@ -11,9 +13,10 @@ const AboutHero = () => {
         <Navbar />
         <div>
           <MainHero
-            Heading="About Us"
+            Heading="Our Story"
             details=" We’ve Built Our Business Around
 Skilled, Dedicated & Passionate Staff"
+            image={Group8493}
           />
         </div>
       </div>

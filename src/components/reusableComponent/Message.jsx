@@ -9,7 +9,7 @@ const Message = () => {
       <div className="w-[90%] mx-auto mt-[94px] lg:flex md:flex">
         <div className="bg-[#171B29] mx-auto rounded-[25px] mb-[60px] md:w-[50%]">
           <div className="w-[90%] mx-auto lg:pb-[200px]">
-            <h3 className="leading-[54px] text-[#fefefe] text-[36px] w-[50%] pt-12 pb-8 lg:w-[100%] ">
+            <h3 className="leading-[54px] text-[#fefefe] text-[36px] w-[50%] pt-12 pb-8 lg:w-[100%] font-bold">
               Send a message
             </h3>
             <form action="">
@@ -61,7 +61,7 @@ const Message = () => {
         </div>
         <div className="bg-[#0C56FE] rounded-[25px] md:w-[50%] md:h-[930px] lg:h-[1100px]">
           <div className="w-[90%] mx-auto">
-            <h3 className="text-[#fefefe] text-[36px] pt-[34px] mb-14 lg:pt-12 lg:mb-3">
+            <h3 className="text-[#fefefe] text-[36px] pt-[34px] mb-14 lg:pt-12 lg:mb-3 font-bold">
               Contact
             </h3>
             <p className="text-[#fefefe] text-[18px] leading-[22px] mb-8">

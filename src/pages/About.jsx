@@ -11,7 +11,7 @@ const About = () => {
     <div>
       <AboutHero />
       <OurStory />
-      <Passion />
+      {/* <Passion /> */}
       <Innovate />
       <Success />
       <Subfooter />
