@@ -5,6 +5,8 @@ import MainHero from './MainHero';
 import Navbar from './Navbar';
 
 const Hero = () => {
+  const hell =
+    " text-[16px] leading-5 t mb-10 tracking-[3%]  lg:leading-7";
   return (
     <div className="bg-[#0F1320]">
       <img src={Herobg} alt="" className="w-[80%] ml-[20%] absolute" />
@@ -19,6 +21,7 @@ const Hero = () => {
             desire to not only build but pioneer as the leader in emerging
             digital solutions for every lifestyle."
             image={Heroimg}
+            Active={hell}
           />
         </div>
       </div>

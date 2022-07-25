@@ -1,7 +1,8 @@
 import React from 'react'
 import Heroimg from "../assets/heroimg.png";
 
-const MainHero = ({title, Heading, details, image}) => {
+const MainHero = ({ title, Heading, details, image, Active }) => {
+  
   return (
     <div>
       <div className=" w-[90%] mx-auto md:flex mt-12">
@@ -12,11 +13,11 @@ const MainHero = ({title, Heading, details, image}) => {
           <h1 className="text-[36px] t pb-2 lg:text-[60px] lg:w-[100%] font-bold">
             {Heading}
           </h1>
-          <p className=" text-[16px] leading-5 t mb-10 tracking-[3%]  lg:leading-7 ">
+          <p className={Active} >
             {details}
           </p>
         </div>
-        <div className="md:w-[50%] lg:w-[45%]">
+        <div className="md:w-[50%] lg:w-[50%]">
           <img src={image} alt="" className="w-[100%] h-auto mx-auto" />
         </div>
       </div>
