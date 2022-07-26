@@ -36,9 +36,9 @@ const Passion = () => {
             alt=""
             className=" hidden absolute md:max-h-[490px] lg:h-[500px] md:w-[100%] lg:w-[51%] xl:w-[57.18%]  md:block xl:ml-[-1%] lg:ml-[-1%]  "
           /> */}
-          <h2 className="text-[#0F1320] font-bold text-[40px] leading-[60px] relative w-[90%] mx-auto pt-16 sm:w-[50%] sm:mx-0 sm:ml-[5%] sm:pb-16 xl:ml-[10%] xl:w-[60%] xl:pt-[20%] md:w-[70%] md:ml-[10%] md:mb-[20%] md:pt-[20%] lg:w-[80%]">
+          <h2 className="text-[#0F1320] f font-bold text-[40px] leading-[60px] relative w-[90%] mx-auto pt-16 sm:w-[50%] sm:mx-0 sm:ml-[5%] sm:pb-16 xl:ml-[10%] xl:w-[50%] xl:pt-[20%] md:w-[70%] md:ml-[10%] md:mb-[20%] md:pt-[20%] lg:w-[80%] ">
             Passionate, Empathy,{" "}
-            <span className="text-[#22A75D]"> Cooperation</span>&{" "}
+            <span className="text-[#22A75D]">Cooperation</span> &{" "}
             <span className="text-[#22A75D]">collaration </span> .
           </h2>
         </div>

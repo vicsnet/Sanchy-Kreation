@@ -22,7 +22,7 @@ const Project = () => {
             Our Projects
           </h2>
           <div className="md:flex md:w-[90%] lg:w-[80%] md:mx-auto md:gap-5  sm:w-[60%] sm:mx-auto sm:pb-32 md:pb-0">
-            <div className="bg-[#FFFFFF] mb-6 md:h-[560px] ">
+            <div className="bg-[#FFFFFF] mb-6 md:h-[460px] ">
               <div className="bg-[#FFFFFF] w-[80%] mx-auto">
                 <img
                   src={Rectangle112}
@@ -34,13 +34,13 @@ const Project = () => {
                     Sanchy Technology
                   </h3>
 
-                  <div className="px-auto mx-auto mt-4 flex pb-8">
+                  <div className="px-auto mx-auto mt-4 flex pb-8 md:pb-0 ">
                     <ExploreBut className="mx-auto" />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFFFFF] mb-6 md:mt-[72px] md:h-[560px]">
+            <div className="bg-[#FFFFFF] mb-6 md:mt-[72px] md:h-[460px]">
               <div className="bg-[#FFFFFF] w-[80%] mx-auto">
                 <img
                   src={Rectangle113}
@@ -48,22 +48,22 @@ const Project = () => {
                   className="pt-[38px] pb-[46px] w-[100%]"
                 />
                 <div>
-                  <h2 className="absolute top-[50%] left-[40.3%] t text-[40px]">
+                  <h2 className="absolute top-[45%] flex text-center items-center md:top-[50%] xl:top-[55%] left-[40.3%] t md:left-[45%] text-[16px]">
                     Coming Soon
                   </h2>
                 </div>
                 <div className="">
-                  <h3 className="text-center text-[24px] text-[#000000] font-bold">
+                  <h3 className="text-center text-[24px] text-[#000000] font-bold ">
                     Sanchy Real Estate
                   </h3>
 
-                  <div className="px-auto mx-auto mt-4 flex pb-8">
+                  <div className="px-auto mx-auto mt-4 flex pb-8 md:pb-0">
                     <ExploreBut className="" />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFFFFF] md:mb-6 md:h-[560px]">
+            <div className="bg-[#FFFFFF] md:mb-6 md:h-[460px]">
               <div className="bg-[#FFFFFF] w-[80%] mx-auto">
                 <img
                   src={Rectangle114}
@@ -75,7 +75,7 @@ const Project = () => {
                     Sanchy Nutrition
                   </h3>
 
-                  <div className="px-auto mx-auto flex pb-8 mt-4">
+                  <div className="px-auto mx-auto flex mt-4 pb-8 md:pb-0">
                     <ExploreBut />
                   </div>
                 </div>

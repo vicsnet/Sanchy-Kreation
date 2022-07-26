@@ -26,7 +26,7 @@ const Footer = () => {
                 <li className="text-[18px] t md:p-8 pb-[24px] ">Home</li>
               </Link>
               <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
-                <li className="text-[18px] t md:p-8 pb-[24px]  ">About Us</li>
+                <li className="text-[18px] t md:p-8 pb-[24px]  ">Our Story</li>
               </Link>
               <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
                 <li className="text-[18px] t md:p-8 pb-[24px]">Contact</li>

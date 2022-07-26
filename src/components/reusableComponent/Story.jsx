@@ -22,7 +22,7 @@ const Story = () => {
           />
         </div>
         <div className="lg:w-[50%]">
-          <h2 className="text-[#fefefe] text-[36px] mb-8 mt-20 md:text-[46px] md:mt-0 xl:w-[100%] font-bold" >
+          <h2 className="text-[#fefefe] text-[36px] mb-8 mt-20 md:text-[40px] md:mt-0 xl:w-[100%] font-bold" >
             A road map to increased productivity and improved product-driven
             solutions.
           </h2>

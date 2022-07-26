@@ -53,7 +53,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 md:max-h-[436px] lg:max-h-[400px] font-bold">
+          <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 md:max-h-[436px] lg:max-h-[400px]">
             <div className="w-[90%] mx-auto pb-7 ">
               <img
                 src={Group8490}

@@ -64,7 +64,7 @@ const Message = () => {
             <h3 className="text-[#fefefe] text-[36px] pt-[34px] mb-14 lg:pt-12 lg:mb-3 font-bold">
               Contact
             </h3>
-            <p className="text-[#fefefe] text-[18px] leading-[22px] mb-8">
+            <p className="text-[#fefefe] text-[16px] leading-[22px] mb-8">
               Drop us a line! We’ll set up a time to chat over the phone or
               in-person to know more about your business needs. All primary
               conferences are free of charge.
