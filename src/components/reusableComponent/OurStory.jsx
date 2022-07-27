@@ -5,12 +5,12 @@ const OurStory = () => {
     <div>
       <div className="w-[90%] mx-auto">
         <div className="">
-          <div className="bg-[#171B29] w-[100%] mx-auto rounded-[25px] mt-16">
+          <div className="bg-[#171B29] w-[100%] mx-auto rounded-[25px] mt-20">
             <div>
-              <h3 className="font-bold text-[#fefefe] text-[36px] leading-[54px] md:text-[46px] w-[90%] mx-auto pt-16 pb-0">
+              <h3 className="font-bold text-[#fefefe] text-[36px] leading-[54px] md:text-[40px] w-[90%] mx-auto pt-16 pb-0">
                 Who We Are and What We’re About
               </h3>
-              <p className="text-[16px] t w-[90%] mx-auto pt-7 pb-7 leading-6  ">
+              <p className="text-[16px] t w-[90%] mx-auto pt-7 pb-7 leading-6  bt opacity-[80%]">
                 Poised as a technology-driven company, we pride ourselves in
                 providing comprehensive arrays of solutions comprising payment
                 integration across e-commerce websites as a stress-free routine,
@@ -36,10 +36,10 @@ const OurStory = () => {
               </p>
             </div>
             <div className="flex flex-col">
-              <h3 className=" text-[#fefefe] text-[36px] leading-[54px] md:text-[46px] w-[90%] mx-auto font-bold">
+              <h3 className=" text-[#fefefe] text-[36px] leading-[54px] md:text-[40px] w-[90%] mx-auto font-bold">
                 Our Vision
               </h3>
-              <p className="text-[16px] t w-[90%] mx-auto pt-7 pb-7 leading-6 md:pb-20  ">
+              <p className="text-[16px] t w-[90%] mx-auto pt-7 pb-7 leading-6 md:pb-20 bt opacity-[80%] ">
                 To be a successful global information technology company trusted
                 by its customers and partners for service excellence, caring for
                 its employees and creating and delivering innovative and value

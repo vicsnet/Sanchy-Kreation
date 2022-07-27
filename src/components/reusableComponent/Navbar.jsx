@@ -23,10 +23,14 @@ const Navbar = () => {
         </div>
         <ul className="hidden  lg:flex">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-            <li className="p-10 text-[14px] text-[#fefefe] ">Home</li>
+            <li className="p-10 text-[14px] text-[#fefefe] bt opacity-[80%]">
+              Home
+            </li>
           </Link>
           <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
-            <li className="p-10 text-[14px] text-[#fefefe] ">Our Story</li>
+            <li className="p-10 text-[14px] text-[#fefefe] bt opacity-[80%]">
+              Our Story
+            </li>
           </Link>
           <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
             <li className="p-5">
@@ -37,7 +41,10 @@ const Navbar = () => {
 
         <div className="lg:hidden" onClick={handleClick}>
           {!nav ? (
-            <AiOutlineMenu size={20} className="m-10 text-[#fefefe] cursor-pointer" />
+            <AiOutlineMenu
+              size={20}
+              className="m-10 text-[#fefefe] cursor-pointer"
+            />
           ) : (
             <AiOutlineClose
               size={20}

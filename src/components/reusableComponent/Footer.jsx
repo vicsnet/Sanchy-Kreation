@@ -23,13 +23,19 @@ const Footer = () => {
             </div>
             <ul className="md:flex text-left ">
               <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-                <li className="text-[18px] t md:p-8 pb-[24px] ">Home</li>
+                <li className="text-[18px] t md:p-8 pb-[24px] bt opacity-[80%]">
+                  Home
+                </li>
               </Link>
               <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
-                <li className="text-[18px] t md:p-8 pb-[24px]  ">Our Story</li>
+                <li className="text-[18px] t md:p-8 pb-[24px] bt opacity-[80%] ">
+                  Our Story
+                </li>
               </Link>
               <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
-                <li className="text-[18px] t md:p-8 pb-[24px]">Contact</li>
+                <li className="text-[18px] t md:p-8 pb-[24px] bt opacity-[80%]">
+                  Contact
+                </li>
               </Link>
             </ul>
           </div>
@@ -37,7 +43,7 @@ const Footer = () => {
             <div className="flex lg:p-8 pt-[28px] pb-[3%]">
               <span className="flex">
                 <AiOutlineCopyright className="text-[#fefefe] text-[18px] lg:mt-[4px]" />
-                <h2 className="t  text-[13px] lg:text-[18px] pl-[4px]">
+                <h2 className="t  text-[13px] lg:text-[18px] pl-[4px] bt opacity-[80%]">
                   2022 Sanchy Kreations. All rights reserved
                 </h2>
               </span>

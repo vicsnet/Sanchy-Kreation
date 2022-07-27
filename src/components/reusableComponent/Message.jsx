@@ -20,7 +20,7 @@ const Message = () => {
               <input
                 type="text"
                 placeholder="Enter full name"
-                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none"
+                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%]"
               />{" "}
               <br />
               <label className="text-[16px] text-[#fefefe] pb-2">
@@ -30,7 +30,7 @@ const Message = () => {
               <input
                 type="text"
                 placeholder="Enter company name"
-                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none"
+                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%]"
               />
               <br />
               <label className="text-[16px] text-[#fefefe] pb-2">Email</label>
@@ -38,7 +38,7 @@ const Message = () => {
               <input
                 type="text"
                 placeholder="Enter email address"
-                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none"
+                className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%]"
               />
               <br />
               <label className="text-[16px] text-[#fefefe] pb-2 ">
@@ -50,7 +50,7 @@ const Message = () => {
                 id=""
                 cols="30"
                 rows="10"
-                className=" w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none"
+                className=" w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%]"
               ></textarea>
               <br />
               <button className="w-[100%] h-[73px] text-[24px] text-[#fefefe] bg-[#0C56FE] mb-10 lg:mt-6">
@@ -64,7 +64,7 @@ const Message = () => {
             <h3 className="text-[#fefefe] text-[36px] pt-[34px] mb-14 lg:pt-12 lg:mb-3 font-bold">
               Contact
             </h3>
-            <p className="text-[#fefefe] text-[16px] leading-[22px] mb-8">
+            <p className="bt opacity-[80%] t text-[16px] leading-[22px] mb-8">
               Drop us a line! We’ll set up a time to chat over the phone or
               in-person to know more about your business needs. All primary
               conferences are free of charge.
@@ -72,13 +72,13 @@ const Message = () => {
             <div className="mb-8">
               <span className="flex gap-2 mb-3 lg:mb-7 ">
                 <AiOutlineMail className="text-[24px] text-[#fefefe]" />
-                <p className="text-[16px] t">
+                <p className="text-[16px] t bt opacity-[80%]">
                   Email: Support@sanchykreations.com
                 </p>
               </span>
               <span className="flex gap-2 mb-3">
                 <FaMapMarkerAlt className="text-[24px] text-[#fefefe]" />
-                <p className="text-[16px] t">
+                <p className="text-[16px] bt t opacity-[80%]">
                   Address: 12d Wole Ariyo St, Lekki Phase 1 105102, Lagos
                   Nigeria
                 </p>

@@ -22,17 +22,17 @@ const Story = () => {
           />
         </div>
         <div className="lg:w-[50%]">
-          <h2 className="text-[#fefefe] text-[36px] mb-8 mt-20 md:text-[40px] md:mt-0 xl:w-[100%] font-bold" >
+          <h2 className="text-[#fefefe] text-[36px] mb-8 mt-20 md:text-[40px] md:mt-0 xl:w-[100%] font-bold">
             A road map to increased productivity and improved product-driven
             solutions.
           </h2>
-          <p className="t text-[16px] leading-5 lg:leading-8">
+          <p className="t text-[16px] leading-5 lg:leading-8 bt opacity-[80%]">
             Each element of our solutions works smarter by being fully
             integrated, the net result is higher levels of productivity and
             efficiency in our work force, as well as greater levels of
             satisfaction, as frustrations caused by lack of cohesion disappear.
           </p>
-          <p className="t text-[16px] leading-5 pt-5 mb-10 lg:leading-8">
+          <p className="t text-[16px] leading-5 pt-5 mb-10 lg:leading-8 bt opacity-[80%]">
             We achieve this through the integration of data analysis and
             adequate research into development and new technologies, full
             analytics and development management information from the get-go.

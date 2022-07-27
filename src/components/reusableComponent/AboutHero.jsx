@@ -7,7 +7,7 @@ import Group8493 from "../assets/Group 8493.png";
 
 const AboutHero = () => {
   const hell =
-    " text-[16px] leading-5 t mb-10 tracking-[3%]  lg:leading-7 w-[60%]";
+    " text-[16px] leading-5 t mb-10 tracking-[3%]  lg:leading-7 w-[60%] bt opacity-[80%]";
   return (
     <div className="bg-[#0F1320]">
       <img src={Herobg} alt="" className="w-[80%] ml-[20%] absolute" />
