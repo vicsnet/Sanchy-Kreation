@@ -36,9 +36,9 @@ const Passion = () => {
             alt=""
             className=" hidden absolute md:max-h-[490px] lg:h-[500px] md:w-[100%] lg:w-[51%] xl:w-[57.18%]  md:block xl:ml-[-1%] lg:ml-[-1%]  "
           /> */}
-          <h2 className="text-[#0F1320] bt font-bold text-[40px] pt-16 md:pt-8 leading-[60px] md:leading-[80px] md:text-[60px] xl:text-[60px] lg:leading-[80px] relative w-[90%] mx-auto lg:pt-24 xl:pt-24 sm:w-[50%] sm:mx-0 sm:ml-[5%] sm:pb-16 lg:ml-[10%] xl:w-[50%]  md:w-[50%] md:ml-[20%] md:mb-[20%]  lg:w-[80%] ">
+          <h2 className="text-[#0F1320] bt font-bold text-[40px] pt-16 md:pt-8 leading-[60px] md:leading-[80px] md:text-[60px] xl:text-[60px] lg:leading-[80px] relative w-[90%] mx-auto lg:pt-24 xl:pt-24 sm:w-[50%] sm:mx-0 sm:ml-[5%] sm:pb-16 lg:ml-[10%] xl:w-[60%]  md:w-[50%] md:ml-[20%] md:mb-[20%]  lg:w-[80%] xl:ml-[15%]">
             Passionate, Empathy,{" "}
-            <span className="text-[#22A75D]">Cooperation</span>&{" "}
+            <span className="text-[#22A75D]">Cooperation </span>&{" "}
             <span className="text-[#22A75D]">Collaboration. </span>
           </h2>
         </div>
