@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Subfooter = () => {
   return (
     <div>
-      <div className="bg-[#0F1320] mb-[40%] sm:mb-[25%] md:mb-[104px] ">
+      <div className="bg-[#0F1320] mb-[40%] sm:mb-[25%] md:mb-[104px] h-[400px] md:h-[600px]">
         <div className="">
           <img
             src={SubFoot}
