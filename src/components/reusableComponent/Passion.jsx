@@ -8,7 +8,7 @@ import Group84642 from "../assets/Group84642.png";
 const Passion = () => {
   return (
     <div>
-      <div className=" lg:flex xl:flex mt-16 h-[880px] sm:h-[1000px] lg:h-[600px]">
+      <div className=" lg:flex xl:flex mt-16 h-[820px] sm:h-[1000px] lg:h-[600px]">
         <img
           src={Rectangle22712}
           alt=""
@@ -36,7 +36,7 @@ const Passion = () => {
             alt=""
             className=" hidden absolute md:max-h-[490px] lg:h-[500px] md:w-[100%] lg:w-[51%] xl:w-[57.18%]  md:block xl:ml-[-1%] lg:ml-[-1%]  "
           /> */}
-          <h2 className="text-[#0F1320] bt font-bold text-[40px] pt-16 md:pt-8 leading-[70px] md:leading-[80px] md:text-[60px] xl:text-[70px] lg:leading-[100px] relative w-[90%] mx-auto lg:pt-16 sm:w-[50%] sm:mx-0 sm:ml-[5%] sm:pb-16 lg:ml-[10%] xl:w-[50%]  md:w-[65%] md:ml-[20%] md:mb-[20%]  lg:w-[80%] ">
+          <h2 className="text-[#0F1320] bt font-bold text-[40px] pt-16 md:pt-8 leading-[60px] md:leading-[80px] md:text-[60px] xl:text-[60px] lg:leading-[80px] relative w-[90%] mx-auto lg:pt-24 xl:pt-24 sm:w-[50%] sm:mx-0 sm:ml-[5%] sm:pb-16 lg:ml-[10%] xl:w-[50%]  md:w-[50%] md:ml-[20%] md:mb-[20%]  lg:w-[80%] ">
             Passionate, Empathy,{" "}
             <span className="text-[#22A75D]">Cooperation</span>&{" "}
             <span className="text-[#22A75D]">Collaboration. </span>

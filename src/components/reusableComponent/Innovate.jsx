@@ -28,7 +28,7 @@ const Innovate = () => {
           </div>
         </div>
         <div className="lg:w-[50%]">
-          <img src={Rectangle227121} alt="" className="w-[100%]" />
+          <img src={Rectangle227121} alt="" className="w-[100%] h-auto" />
         </div>
       </div>
     </div>

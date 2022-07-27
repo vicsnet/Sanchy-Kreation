@@ -7,7 +7,7 @@ import Button from "./Button";
 
 const Story = () => {
   return (
-    <div className="  pb-20 ">
+    <div className="  pb-20 mt-[5%] sm:mt-0">
       <div className="w-[90%] mx-auto lg:flex lg:flex-row-reverse gap-5">
         <div className="lg:w-[50%]">
           <img
