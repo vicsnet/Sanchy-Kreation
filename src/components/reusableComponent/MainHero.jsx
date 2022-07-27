@@ -10,7 +10,7 @@ const MainHero = ({ title, Heading, details, image, Active }) => {
           <h3 className="text-[#0C56FE] text-[16px] md:text-[20px] pb-2 font-bold bt tracking-[10%]">
             {title}
           </h3>
-          <h1 className="text-[36px] t pb-2 lg:text-[60px] lg:w-[100%] font-bold">
+          <h1 className="text-[36px] t pb-2 lg:text-[50px] xl:text-[60px] lg:w-[100%] font-bold">
             {Heading}
           </h1>
           <p className={Active} >

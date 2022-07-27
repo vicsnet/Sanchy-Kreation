@@ -2,10 +2,14 @@ import React, { useState } from "react";
 import Logo from "../assets/logo.png";
 import Button from "./Button";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+
+  const isActiveStyle = "p-10 text-[14px] text-[#fefefe] bt";
+  const isNotActiveStyle = "p-10 text-[14px] text-[#fefefe] bt opacity-[80%]";
+
   const handleClick = () => {
     setNav(!nav);
   };
@@ -22,21 +26,29 @@ const Navbar = () => {
           </Link>
         </div>
         <ul className="hidden  lg:flex">
-          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-            <li className="p-10 text-[14px] text-[#fefefe] bt opacity-[80%]">
-              Home
-            </li>
-          </Link>
-          <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
-            <li className="p-10 text-[14px] text-[#fefefe] bt opacity-[80%]">
-              Our Story
-            </li>
-          </Link>
-          <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? isActiveStyle : isNotActiveStyle
+            }
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            <li>Home</li>
+          </NavLink>
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              isActive ? isActiveStyle : isNotActiveStyle
+            }
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            <li>Our Story</li>
+          </NavLink>
+          <NavLink to="/contact" onClick={() => window.scrollTo(0, 0)}>
             <li className="p-5">
               <Button title="Contact Us" />
             </li>
-          </Link>
+          </NavLink>
         </ul>
 
         <div className="lg:hidden" onClick={handleClick}>

@@ -1,9 +1,34 @@
-import React from 'react'
-import {   AiOutlineMail} from 'react-icons/ai'
-import { FaMapMarkerAlt } from 'react-icons/fa'
+import React, { useState } from "react";
+import { AiOutlineMail } from "react-icons/ai";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import image7 from "../assets/image 7.png";
 
 const Message = () => {
+  const [sendMessage, setSendMessage] = useState({
+    fullName: "",
+    companyName: "",
+    email: "",
+    mainmessage: "",
+  });
+  // const []
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (
+      sendMessage.fullName &&
+      sendMessage.companyName &&
+      sendMessage.email &&
+      sendMessage.mainmessage
+    ) {
+      const newMessage = { ...sendMessage, id: new Date() };
+    } else {
+      console.log("meessage to be filled");
+    }
+  };
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setSendMessage ({ ...sendMessage, [name]: value})
+  };
   return (
     <div className="mb-[60px]">
       <div className="w-[90%] mx-auto mt-[94px] lg:flex md:flex">
@@ -12,13 +37,17 @@ const Message = () => {
             <h3 className="leading-[54px] text-[#fefefe] text-[36px] w-[50%] pt-12 pb-8 lg:w-[100%] font-bold">
               Send a message
             </h3>
-            <form action="">
+            <form action="" onSubmit={handleSubmit}>
               <label className="text-[16px] text-[#fefefe] pb-2">
                 Full name
               </label>{" "}
               <br />
               <input
                 type="text"
+                id="fullName"
+                name="fullName"
+                value={sendMessage.fullName}
+                onChange={handleChange}
                 placeholder="Enter full name"
                 className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%]"
               />{" "}
@@ -29,6 +58,10 @@ const Message = () => {
               <br />
               <input
                 type="text"
+                id="companyName"
+                name="companyName"
+                value={sendMessage.companyName}
+                onChange={handleChange}
                 placeholder="Enter company name"
                 className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%]"
               />
@@ -37,6 +70,10 @@ const Message = () => {
               <br />
               <input
                 type="text"
+                id="email"
+                name="email"
+                value={sendMessage.email}
+                onChange={handleChange}
                 placeholder="Enter email address"
                 className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%]"
               />
@@ -46,8 +83,10 @@ const Message = () => {
               </label>
               <br />
               <textarea
-                name=""
-                id=""
+                id="mainmessage"
+                name="mainmessage"
+                value={sendMessage.mainmessage}
+                onChange={handleChange}
                 cols="30"
                 rows="10"
                 className=" w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%]"
@@ -96,6 +135,6 @@ const Message = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Message
+export default Message;

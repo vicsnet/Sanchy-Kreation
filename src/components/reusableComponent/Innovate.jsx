@@ -1,6 +1,6 @@
 import React from 'react'
 import Group8489 from "../assets/Group 8489.png";
-import Rectangle227121 from "../assets/Rectangle227121.png";
+import Rectangle227121 from "../assets/Rectangle 22712 (2).png";
 const Innovate = () => {
   return (
     <div>
