@@ -7,11 +7,11 @@ const Subfooter = () => {
   return (
     <div>
       <div className="bg-[#0F1320] mb-[40%] sm:mb-[25%] md:mb-[104px] h-[460px] sm:h-[400px] md:h-[550px] lg:h-[600px] pt-[8%] sm:pt-0 ">
-        <div className="object-contain w-[100%] object-fit ">
+        <div className="  ">
           <img
             src={SubFoot}
             alt=""
-            className="w-[100%] h-[60%]   md:h-cover  lg:h-[80%] xl:h-auto absolute "
+            className="w-[100%] h-[55%]   md:h-cover  lg:h-[80%] xl:h-auto absolute object-contain"
           />
         </div>
         <div className="relative t ">

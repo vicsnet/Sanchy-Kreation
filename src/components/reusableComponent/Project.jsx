@@ -22,7 +22,7 @@ const Project = () => {
             Our Projects
           </h2>
           <div className="md:flex md:w-[90%] lg:w-[80%] md:mx-auto md:gap-5  sm:w-[60%] sm:mx-auto sm:pb-32 md:pb-0">
-            <div className="bg-[#FFFFFF] mb-6 md:h-[460px] ">
+            <div className="bg-[#FFFFFF] mb-6 md:h-[460px]">
               <div className="bg-[#FFFFFF] w-[80%] mx-auto">
                 <img
                   src={Rectangle112}
