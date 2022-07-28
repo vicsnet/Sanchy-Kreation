@@ -38,9 +38,9 @@ const Passion = () => {
           /> */}
 
           <h2 className="text-[#0F1320]  bt font-bold text-[40px] pt-16 md:pt-8 leading-[60px] md:leading-[80px] md:text-[60px] xl:text-[60px] lg:leading-[80px] relative w-[90%] mx-auto lg:pt-24 xl:pt-24 sm:w-[50%] sm:mx-0 sm:ml-[5%] sm:pb-16 lg:ml-[10%] xl:w-[60%]  md:w-[60%] md:ml-[20%] md:mb-[20%]  lg:w-[85%] xl:ml-[15%]">
-            <span> Passionate, Empathy, </span>
-            <span className="text-[#22A75D]">Cooperation </span>&{" "}
-            <span className="text-[#22A75D]">Collaboration. </span>
+            <span className="bt"> Passionate, Empathy, </span>
+            <span className="text-[#22A75D] bt">Cooperation </span>&{" "}
+            <span className="text-[#22A75D] bt">Collaboration. </span>
           </h2>
         </div>
       </div>
