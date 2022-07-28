@@ -6,7 +6,7 @@ const Innovate = () => {
     <div>
       <div className="lg:flex lg:gap-6 lg:mt-[10%]">
         <div className="lg:w-[50%] lg:mt-[10%] ml-[2%] ">
-          <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 w-[90%] mx-auto lg:w-[100%] md:h-[340px] lg:h-[370px]">
+          <div className=" bg-[#171B29] rounded-[25px] mt-9 lg:mt-4 mb-7 w-[90%] mx-auto lg:w-[100%] md:h-[340px] lg:h-[370px]">
             <div className="w-[90%] mx-auto pb-[101px] ">
               <img
                 src={Group8489}
