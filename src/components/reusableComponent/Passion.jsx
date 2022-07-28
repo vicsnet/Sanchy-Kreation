@@ -20,7 +20,7 @@ const Passion = () => {
           className="xl:w-[50%]  hidden md:block lg:z-10 md:max-h-[490px] lg:w-[50%] md:w-[100%]"
         />
 
-        <div className="mb-[96px] sm:mb-0 ">
+        <div className="mb-[96px] sm:mb-0 lg:w-[50%]">
           <img
             src={Rectangle11}
             alt=""
@@ -29,7 +29,7 @@ const Passion = () => {
           <img
             src={Rectangle111}
             alt=""
-            className=" hidden absolute md:h-[550px] xl:h-[665px] lg:h-[665px] md:w-[100%] lg:w-[51%] xl:w-[57.18%]  md:block xl:ml-[-1%] lg:ml-[-1%]  "
+            className=" hidden absolute md:h-[550px] xl:h-[665px] lg:h-[665px] md:w-[100%] lg:w-[51%] xl:w-[51%]  md:block xl:ml-[-1%] lg:ml-[-1%]  "
           />
           {/* <img
             src={Group84642}
@@ -37,13 +37,16 @@ const Passion = () => {
             className=" hidden absolute md:max-h-[490px] lg:h-[500px] md:w-[100%] lg:w-[51%] xl:w-[57.18%]  md:block xl:ml-[-1%] lg:ml-[-1%]  "
           /> */}
 
-          <p className="text-[#0F1320]  bt font-bold text-[40px] pt-16 md:pt-8 leading-[60px] md:leading-[80px] md:text-[60px] xl:text-[60px] lg:leading-[80px] relative w-[90%] mx-auto lg:pt-24 xl:pt-24 sm:w-[50%] sm:mx-0 sm:ml-[5%] sm:pb-16 lg:ml-[10%] xl:w-[60%]  md:w-[60%] md:ml-[20%] md:mb-[20%]  lg:w-[85%] xl:ml-[15%]">
-            <span className="bt font-bold"> Passionate, Empathy, </span>
-            <span className="text-[#22A75D] bt font-bold">
-              Cooperation{" "}
-            </span>&{" "}
-            <span className="text-[#22A75D] bt font-bold">Collaboration. </span>
-          </p>
+          <div className="text-[#0F1320]  bt font-bold text-[43px] sm:text-[50px] pt-16 md:pt-8 leading-[60px] md:leading-[80px] md:text-[66px] lg:text-[60px] xl:text-[66px] lg:leading-[80px] relative w-[90%]  lg:pt-24 xl:pt-24 sm:w-[55%] sm:mx-0 sm:ml-[5%] sm:pb-16 lg:ml-[10%] xl:w-[67%]  md:w-[60%] md:ml-[20%] md:mb-[20%]  lg:w-[85%] xl:ml-[15%] mx-auto">
+            <p className="bt font-bold"> Passionate,</p>
+            <p className="bt font-bold"> Empathy, </p>
+          
+              <p className="text-[#22A75D] bt font-bold">
+                Cooperation <span className="text-[#0F1320]">&</span>
+              </p>
+    
+            <p className="text-[#22A75D] bt font-bold">Collaboration. </p>
+          </div>
         </div>
       </div>
     </div>

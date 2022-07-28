@@ -70,7 +70,7 @@ const Navbar = () => {
         className={
           !nav
             ? " hidden"
-            : " absolute w-[100%] bg-[#171B29] rounded-[25px] h-[340px]  pt-16 "
+            : " absolute w-[100%] bg-[#171B29] rounded-[25px] h-[340px]  pt-16 z-10"
         }
       >
         <Link to="/" onClick={() => window.scrollTo(0, 0)}>

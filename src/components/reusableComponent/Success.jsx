@@ -28,7 +28,7 @@ const Success = () => {
         <h2 className="text-[36px] t leading-[44px] text-center font-bold">
           Dynamic digital tools with proven success stories
         </h2>
-        <p className="t text-[20px] leading-[24px] text-center mt-6 bt">
+        <p className="t text-[16px] leading-[24px] text-center mt-6 bt">
           We excel through cooperation and refrain from working as a
           conventional tech company. Instead, our evolved, performance-based
           development system drives proven quantitative results for our users

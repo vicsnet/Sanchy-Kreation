@@ -1,12 +1,12 @@
 import React from 'react'
 import Group8489 from "../assets/Group 8489.png";
-import Rectangle227121 from "../assets/Rectangle 22712 (2).png";
+import Rectangle227121 from "../assets/Pexels Photo by Christina Morillo.png";
 const Innovate = () => {
   return (
     <div>
       <div className="lg:flex lg:gap-6 lg:mt-[10%]">
         <div className="lg:w-[50%] lg:mt-[10%] ml-[2%] ">
-          <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 w-[90%] mx-auto lg:w-[100%] lg:h-[418px]">
+          <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 w-[90%] mx-auto lg:w-[100%] md:h-[340px] lg:h-[370px]">
             <div className="w-[90%] mx-auto pb-[101px] ">
               <img
                 src={Group8489}
@@ -28,7 +28,11 @@ const Innovate = () => {
           </div>
         </div>
         <div className="lg:w-[50%]">
-          <img src={Rectangle227121} alt="" className="w-[100%] h-auto" />
+          <img
+            src={Rectangle227121}
+            alt=""
+            className="w-[100%] h-auto lg:h-[600px] rounded-bl-[150px]"
+          />
         </div>
       </div>
     </div>

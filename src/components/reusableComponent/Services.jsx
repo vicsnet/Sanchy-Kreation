@@ -12,7 +12,7 @@ const Services = () => {
           Our Roadmap to Success
         </h2>
         <div className="md:grid md:grid-cols-2 md:gap-5">
-          <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 sm:h-[330px] md:h-[380px]">
+          <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 sm:h-[330px] md:h-[380px] lg:h-[340px]">
             <div className="w-[90%] mx-auto pb-[101px] ">
               <img
                 src={Group8484}
@@ -32,7 +32,7 @@ const Services = () => {
             </div>
           </div>
           <div className="md:mt-[76px] ">
-            <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 sm:h-[330px] md:h-[380px]">
+            <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 sm:h-[330px] md:h-[380px] lg:h-[340px]">
               <div className="w-[90%] mx-auto pb-[101px] ">
                 <img
                   src={Group8489}
@@ -53,7 +53,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 sm:h-[330px] md:h-[380px]">
+          <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 sm:h-[330px] md:h-[380px] lg:h-[340px]">
             <div className="w-[90%] mx-auto pb-[101px]">
               <img
                 src={Group8490}
@@ -75,7 +75,7 @@ const Services = () => {
           </div>
 
           <div className="md:mt-[100px] ">
-            <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 sm:h-[330px] md:h-[380px]">
+            <div className=" bg-[#171B29] rounded-[25px] mt-9 mb-7 sm:h-[330px] md:h-[380px] lg:h-[340px]">
               <div className="w-[90%] mx-auto pb-[101px] ">
                 <img
                   src={Group8491}
