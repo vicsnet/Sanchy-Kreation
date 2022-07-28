@@ -27,14 +27,14 @@ const Message = () => {
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-    setSendMessage ({ ...sendMessage, [name]: value})
+    setSendMessage({ ...sendMessage, [name]: value });
   };
   return (
     <div className="mb-[60px]">
-      <div className="w-[90%] mx-auto mt-[94px] lg:flex md:flex">
-        <div className="bg-[#171B29] mx-auto rounded-[25px] mb-[60px] md:w-[50%]">
+      <div className="w-[90%] mx-auto mt-[94px] lg:flex">
+        <div className="bg-[#171B29] mx-auto rounded-[25px] mb-[60px] lg:w-[50%]">
           <div className="w-[90%] md:w-[80%] mx-auto lg:pb-[100px]">
-            <h3 className="leading-[54px] text-[#fefefe] text-[36px] w-[50%] pt-12 pb-8 lg:w-[100%] font-bold">
+            <h3 className="leading-[54px] text-[#fefefe] text-[36px] w-[50%] pt-12 pb-8 md:w-[100%] font-bold">
               Send a message
             </h3>
             <form action="" onSubmit={handleSubmit}>
@@ -98,7 +98,7 @@ const Message = () => {
             </form>
           </div>
         </div>
-        <div className="bg-[#0C56FE] rounded-[25px] md:w-[50%] md:h-[930px] lg:h-[1000px]">
+        <div className="bg-[#0C56FE] rounded-[25px] lg:w-[50%] md:h-[930px] lg:h-[1000px]">
           <div className="md:w-[70%] w-[90%] mx-auto">
             <h3 className="text-[#fefefe] text-[36px] pt-[34px] mb-14 lg:pt-12 lg:mb-3 font-bold">
               Contact
@@ -109,25 +109,36 @@ const Message = () => {
               conferences are free of charge.
             </p>
             <div className="mb-8">
-              <span className="flex gap-2 mb-3 lg:mb-7 ">
-                <AiOutlineMail className="text-[24px] text-[#fefefe]" />
-                <p className="text-[16px] t bt opacity-[80%]">
+              <div className="flex gap-2 mb-3 lg:mb-7 ">
+                <span>
+                  <AiOutlineMail className="text-[24px] text-[#fefefe]" />
+                </span>
+                <p className=" hidden sm:block text-[16px] t bt opacity-[80%]">
                   Email: Support@sanchykreations.com
                 </p>
-              </span>
-              <span className="flex gap-2 mb-3">
-                <FaMapMarkerAlt className="text-[24px] text-[#fefefe]" />
-                <p className="text-[16px] bt t opacity-[80%]">
+                <p className="sm:hidden text-[16px] t bt opacity-[80%]">
+                 <p>Email:</p> Support@sanchykreations.com
+                </p>
+              </div>
+              <div className="flex gap-2 mb-3">
+                <span>
+                  <FaMapMarkerAlt className="text-[24px] text-[#fefefe] bg-transparent" />
+                </span>
+                <p className=" hidden sm:block text-[16px] bt t opacity-[80%] w">
                   Address: 12d Wole Ariyo St, Lekki Phase 1 105102, Lagos
                   Nigeria
                 </p>
-              </span>
+                <p className="sm:hidden text-[16px] bt t opacity-[80%] w">
+                  <p>Address:</p> 12d Wole Ariyo St, Lekki Phase 1 105102, Lagos
+                  Nigeria
+                </p>
+              </div>
             </div>
             <div className=" pb-8 ">
               <img
                 src={image7}
                 alt=""
-                className="md:w-[90%] sm:w-[80%]  h-[400px] object-cover"
+                className="lg:w-[90%] w-[100%] sm:w-[60%] h-[400px] lg:h-[400px] object-fit"
               />
             </div>
           </div>
