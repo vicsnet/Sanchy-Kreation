@@ -11,7 +11,7 @@ const Subfooter = () => {
           <img
             src={SubFoot}
             alt=""
-            className="w-[100%] h-[60%] md:h-full md:h-cover absolute "
+            className="w-[100%] h-[60%]  md:h-auto md:h-cover lg:h-auto absolute "
           />
         </div>
         <div className="relative t ">
