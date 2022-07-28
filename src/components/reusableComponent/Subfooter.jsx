@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 const Subfooter = () => {
   return (
     <div>
-      <div className="bg-[#0F1320] mb-[40%] sm:mb-[25%] md:mb-[104px] h-[430px] sm:h-[400px] md:h-[650px] pt-[4%] sm:pt-0 lg:h-[650px] xl:h-[600px]">
+      <div className="bg-[#0F1320] mb-[40%] sm:mb-[25%] md:mb-[104px] h-[430px] sm:h-[400px] md:h-[780px] pt-[8%] sm:pt-0 ">
         <div className="">
           <img
             src={SubFoot}
             alt=""
-            className="w-[100%] h-[60%] sm:h-[70%] md:h-[100%] xl:h-[90%] absolute "
+            className="w-[100%] h-[60%] md:h-full md:h-cover absolute "
           />
         </div>
         <div className="relative t ">
