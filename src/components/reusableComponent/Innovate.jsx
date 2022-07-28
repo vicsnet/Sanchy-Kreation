@@ -31,7 +31,7 @@ const Innovate = () => {
           <img
             src={Rectangle227121}
             alt=""
-            className="w-[100%] h-auto  rounded-bl-[150px]"
+            className="w-[100%] h-auto lg:h-[600px] object-cover  rounded-bl-[150px]"
           />
         </div>
       </div>
