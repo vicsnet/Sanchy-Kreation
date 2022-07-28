@@ -18,7 +18,7 @@ const Project = () => {
           />
         </div>
         <div className="relative">
-          <h2 className="text-[36px] text-[#FFFFFF] sm:text-center sm:pb-6 md:pt-32 font-bold">
+          <h2 className="text-[36px] text-[#FFFFFF] sm:text-center sm:pb-6 md:pt-32 font-bold mx-auto w-[90%]">
             Our Projects
           </h2>
           <div className="md:flex md:w-[90%] lg:w-[80%] md:mx-auto md:gap-5  sm:w-[60%] sm:mx-auto sm:pb-32 md:pb-0">

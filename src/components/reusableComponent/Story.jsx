@@ -37,7 +37,6 @@ const Story = () => {
             adequate research into development and new technologies, full
             analytics and development management information from the get-go.
           </p>
-          <Button title="Learn more" />
         </div>
       </div>
     </div>
