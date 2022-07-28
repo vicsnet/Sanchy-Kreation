@@ -15,7 +15,7 @@ const ContactHero = () => {
         <div>
           <MainHero
             Heading="Contact US"
-                      details=" We’re always up for a chat!"
+            details=" We’re always up for a chat!"
             image={Group8444}
             Active={hell}
           />
