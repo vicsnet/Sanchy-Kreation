@@ -33,7 +33,7 @@ const Message = () => {
     <div className="mb-[60px]">
       <div className="w-[90%] mx-auto mt-[94px] lg:flex md:flex">
         <div className="bg-[#171B29] mx-auto rounded-[25px] mb-[60px] md:w-[50%]">
-          <div className="w-[90%] mx-auto lg:pb-[100px]">
+          <div className="w-[90%] md:w-[80%] mx-auto lg:pb-[100px]">
             <h3 className="leading-[54px] text-[#fefefe] text-[36px] w-[50%] pt-12 pb-8 lg:w-[100%] font-bold">
               Send a message
             </h3>
@@ -127,7 +127,7 @@ const Message = () => {
               <img
                 src={image7}
                 alt=""
-                className="md:w-[90%] sm:w-[80%] ml-[5%] h-[400px] object-cover"
+                className="md:w-[90%] sm:w-[80%]  h-[400px] object-cover"
               />
             </div>
           </div>
