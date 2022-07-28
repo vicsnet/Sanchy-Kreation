@@ -99,7 +99,7 @@ const Message = () => {
           </div>
         </div>
         <div className="bg-[#0C56FE] rounded-[25px] md:w-[50%] md:h-[930px] lg:h-[1000px]">
-          <div className="w-[70%] mx-auto">
+          <div className="md:w-[70%] w-[90%] mx-auto">
             <h3 className="text-[#fefefe] text-[36px] pt-[34px] mb-14 lg:pt-12 lg:mb-3 font-bold">
               Contact
             </h3>
