@@ -55,7 +55,8 @@ const Navbar = () => {
           {!nav ? (
             <AiOutlineMenu
               size={20}
-              className="m-10 text-[#fefefe] cursor-pointer"
+              className="m-10 text-[#fefefe] cursor-pointer ml-[64%] sm:ml-0
+              "
             />
           ) : (
             <AiOutlineClose
