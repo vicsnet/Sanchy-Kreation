@@ -138,7 +138,7 @@ const Message = () => {
               <img
                 src={image7}
                 alt=""
-                className="lg:w-[90%] w-[100%] sm:w-[60%] h-[400px] lg:h-[400px] object-cover"
+                className="lg:w-[100%] w-[100%] sm:w-[70%] h-[400px] md:h-[550px] object-cover"
               />
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Rectangle112 from "../assets/Rectangle 11 (6).png";
-import Rectangle113 from "../assets/Rectangle 11 (7).png";
+import Rectangle113 from "../assets/Group 8494 (1).png";
 import Rectangle114 from "../assets/Rectangle 11 (8).png";
 import Group37 from "../assets/Group 8482.png";
 import Vector3 from "../assets/Vector3.png";
@@ -47,11 +47,7 @@ const Project = () => {
                   alt=""
                   className="pt-[38px] pb-[46px] w-[100%]"
                 />
-                <div>
-                  <h2 className="absolute top-[45%] flex text-center items-center md:top-[50%] xl:top-[55%] left-[40.3%] t md:left-[45%] text-[16px]">
-                    Coming Soon
-                  </h2>
-                </div>
+                
                 <div className="">
                   <h3 className="text-center text-[24px] text-[#000000] font-bold ">
                     Sanchy Real Estate

@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   return (
     <div className="">
-      <div className=" flex justify-between w-[90%] mx-auto h-30 pt-12">
+      <div className=" flex justify-between w-[90%] mx-auto h-30 lg:pt-12">
         <div className="">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
             <img

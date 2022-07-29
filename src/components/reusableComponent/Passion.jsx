@@ -40,11 +40,11 @@ const Passion = () => {
           <div className="text-[#0F1320]  bt font-bold text-[43px] sm:text-[50px] pt-16 md:pt-8 leading-[60px] md:leading-[80px] md:text-[66px] lg:text-[60px] xl:text-[66px] lg:leading-[80px] relative w-[90%]  lg:pt-24 xl:pt-24 sm:w-[55%] sm:mx-0 sm:ml-[5%] sm:pb-16 lg:ml-[10%] xl:w-[70%]  md:w-[60%] md:ml-[20%] md:mb-[20%]  lg:w-[85%] xl:ml-[15%] mx-auto">
             <p className="bt font-bold"> Passionate,</p>
             <p className="bt font-bold"> Empathy, </p>
-          
-              <p className="text-[#22A75D] bt font-bold">
-                Cooperation <span className="text-[#0F1320]">&</span>
-              </p>
-    
+
+            <p className="text-[#22A75D] bt font-bold">
+              Cooperation <span className="text-[#0F1320] bt">&</span>
+            </p>
+
             <p className="text-[#22A75D] bt font-bold">Collaboration. </p>
           </div>
         </div>
