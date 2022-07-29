@@ -21,7 +21,7 @@ const Navbar = () => {
             <img
               src={Logo}
               alt=""
-              className="w-[50%] h-auto pt-10 pb-10 pr-10"
+              className="w-[55%] sm:w-[50%] h-auto pt-10 pb-10 pr-10"
             />
           </Link>
         </div>

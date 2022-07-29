@@ -17,7 +17,7 @@ const Footer = () => {
                 <img
                   src={Logo}
                   alt=""
-                  className="w-[30%] md:w-[60%] lg:w-[70%] md:pt-8 lg:pt-0"
+                  className="w-[33%] sm:w-[30%] md:w-[60%] lg:w-[70%] md:pt-8 lg:pt-0"
                 />
               </Link>
             </div>
