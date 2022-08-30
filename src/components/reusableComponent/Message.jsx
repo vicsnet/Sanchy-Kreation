@@ -7,8 +7,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Message = () => {
-  
-
   const url = `https://contact.sanchytech.com/`;
 
   const [sendMessage, setSendMessage] = useState({
@@ -17,7 +15,6 @@ const Message = () => {
     email: "",
     message: "",
   });
-  
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -72,7 +69,7 @@ const Message = () => {
           //       // console.log("message sent")
           // setErrorMessage("message sent"),
           // setErrorMessage(notify);
-        toast.success("Message sent you will receive a mail shortly");
+          toast.success("Message sent you will receive a mail shortly");
           setSendMessage({
             fname: "",
             phone: "",
@@ -84,7 +81,7 @@ const Message = () => {
       // const newMessage = { ...sendMessage, id: new Date() };
     } else {
       console.log("meessage to be filled");
-      
+
       toast.error("filled can not be empty");
     }
     // setSendMessage("")
@@ -107,7 +104,7 @@ const Message = () => {
               Send a message
             </h3>
             {/* <p className="">{errorMessage}</p> */}
-            <ToastContainer  />
+            <ToastContainer />
             <form action="" onSubmit={handleSubmit}>
               <label className="text-[16px] text-[#fefefe] pb-2">
                 Full name
@@ -124,7 +121,7 @@ const Message = () => {
               />{" "}
               <br />
               <label className="text-[16px] text-[#fefefe] pb-2">
-                Company name
+                Phone number
               </label>
               <br />
               <input
