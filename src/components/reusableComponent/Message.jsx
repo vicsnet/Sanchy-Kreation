@@ -2,28 +2,97 @@ import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import image7 from "../assets/image 7.png";
+import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Message = () => {
+  
+
+  const url = `https://contact.sanchytech.com/`;
+
   const [sendMessage, setSendMessage] = useState({
-    fullName: "",
-    companyName: "",
+    fname: "",
+    phone: "",
     email: "",
-    mainmessage: "",
+    message: "",
   });
-  // const []
+  
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    // const newMessage = { ...sendMessage };
+    // setSendMessage(newMessage)
+    // console.log(newMessage)
+
+    // axios
+    //   .post(url, {
+    //     fname: sendMessage.fname,
+    //     email: sendMessage.email,
+    //     message: sendMessage.message,
+    //     phone: sendMessage.phone,
+    //   })
+    //   .then((res) => {
+    //     console.log(res.data);
+    //   });
+    // try {
+    //   const resp = await Axios.post(`https://contact.sanchytech.com/`, {
+    //     ...sendMessage,
+    //   });
+    //   console.log(resp.data);
+    // } catch (error) {
+    //   console.log(error.response);
+    // }
+    var FormData = require("form-data");
+
+    var data = new FormData();
+    data.append("fname", sendMessage.fname);
+    data.append("phone", sendMessage.phone);
+    data.append("message", sendMessage.message);
+    data.append("email", sendMessage.email);
+
     if (
-      sendMessage.fullName &&
-      sendMessage.companyName &&
+      sendMessage.fname &&
+      sendMessage.phone &&
       sendMessage.email &&
-      sendMessage.mainmessage
+      sendMessage.message
     ) {
-      const newMessage = { ...sendMessage, id: new Date() };
+      axios
+        .post(
+          url,
+          //   {
+          //   fname: sendMessage.fname,
+          //   phone: sendMessage.phone,
+          //   message: sendMessage.message,
+          //   email: sendMessage.email,
+          // }
+          data
+        )
+        .then((res) => {
+          //       // console.log("message sent")
+          // setErrorMessage("message sent"),
+          // setErrorMessage(notify);
+        toast.success("Message sent you will receive a mail shortly");
+          setSendMessage({
+            fname: "",
+            phone: "",
+            email: "",
+            message: "",
+          });
+        });
+
+      // const newMessage = { ...sendMessage, id: new Date() };
     } else {
       console.log("meessage to be filled");
+      
+      toast.error("filled can not be empty");
     }
+    // setSendMessage("")
+    // setSendMessage.phone(""),
+    // setSendMessage.email(""),
+    // setSendMessage.message("");
   };
+
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
@@ -37,6 +106,8 @@ const Message = () => {
             <h3 className="leading-[54px] text-[#fefefe] text-[36px] w-[50%] pt-12 pb-8 md:w-[100%] font-bold">
               Send a message
             </h3>
+            {/* <p className="">{errorMessage}</p> */}
+            <ToastContainer  />
             <form action="" onSubmit={handleSubmit}>
               <label className="text-[16px] text-[#fefefe] pb-2">
                 Full name
@@ -45,8 +116,8 @@ const Message = () => {
               <input
                 type="text"
                 id="fullName"
-                name="fullName"
-                value={sendMessage.fullName}
+                name="fname"
+                value={sendMessage.fname}
                 onChange={handleChange}
                 placeholder="Enter full name"
                 className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%]"
@@ -58,9 +129,9 @@ const Message = () => {
               <br />
               <input
                 type="text"
-                id="companyName"
-                name="companyName"
-                value={sendMessage.companyName}
+                id="phone"
+                name="phone"
+                value={sendMessage.phone}
                 onChange={handleChange}
                 placeholder="Enter company name"
                 className="h-[56px] w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%]"
@@ -83,13 +154,13 @@ const Message = () => {
               </label>
               <br />
               <textarea
-                id="mainmessage"
-                name="mainmessage"
-                value={sendMessage.mainmessage}
+                id="message"
+                name="message"
+                value={sendMessage.message}
                 onChange={handleChange}
                 cols="30"
                 rows="10"
-                className=" w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%]"
+                className=" w-[100%] text-[#999999] rounded-[8px] mb-7  pl-5 b outline-none bt opacity-[100%] pt-3"
               ></textarea>
               <br />
               <button className="w-[100%] h-[73px] text-[24px] text-[#fefefe] bg-[#0C56FE] mb-10 lg:mt-6">
@@ -117,7 +188,7 @@ const Message = () => {
                   Email: Support@sanchykreations.com
                 </p>
                 <p className="sm:hidden text-[16px] t bt opacity-[80%]">
-                 <p>Email:</p> Support@sanchykreations.com
+                  <p>Email:</p> Support@sanchykreations.com
                 </p>
               </div>
               <div className="flex gap-2 mb-3">
